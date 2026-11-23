@@ -1,0 +1,10 @@
+# Appolonia — robots.txt
+# https://zavattaro.github.io/appolonia/site = publiczny adres katalogu site/ (bez końcowego "/"); podmień: python3 scripts/set_base_url.py https://twoja-domena
+# UWAGA: roboty czytają robots.txt tylko z katalogu głównego domeny (https://domena/robots.txt).
+# Jeśli strona site/ nie jest w katalogu głównym, skopiuj ten plik do katalogu głównego przy publikacji.
+User-agent: *
+Allow: /
+Disallow: /keys/
+Disallow: /scripts/
+
+Sitemap: https://zavattaro.github.io/appolonia/site/sitemap.xml
