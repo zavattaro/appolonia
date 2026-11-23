@@ -198,7 +198,7 @@
   "paywall.err_noprice": "Ten plan nie jest jeszcze dostępny. Wybierz inny plan.",
   "paywall.err_checkout": "Nie udało się otworzyć okna płatności. Sprawdź połączenie i spróbuj ponownie.",
   "paywall.thanks_title": "Dziękujemy za zakup!",
-  "paywall.thanks_text": "Kod licencyjny wyślemy na adres e-mail podany przy płatności. Otwórz link z e-maila albo wklej kod poniżej, w polu „Mam kod licencyjny”.",
+  "paywall.thanks_text": "Kod licencyjny wyślemy na adres e-mail podany przy płatności — zwykle w ciągu kilku godzin, najpóźniej w ciągu 24 godzin. Otwórz link z e-maila albo wklej kod poniżej, w polu „Mam kod licencyjny”.",
   "paywall.already_live": "Masz już aktywną wersję premium.",
   "paywall.renewal": "Subskrypcję możesz anulować w każdej chwili. Płatności i automatyczne odnawianie obsługuje Paddle.com (sprzedawca i operator płatności) — subskrypcję anulujesz linkiem w e-mailu z potwierdzeniem zakupu. Plan roczny: pierwsze {n} dni za darmo, potem {price} za rok; jeśli nie anulujesz przed końcem okresu próbnego, opłata zostanie pobrana automatycznie. Plan „Na zawsze” to jedna płatność, bez odnawiania.",
   "paywall.privacy_note": "Aplikacja nie zbiera twoich danych. Adres e-mail podajesz tylko w oknie płatności Paddle; po zakupie otrzymasz e-mailem kod licencyjny, który włącza premium na tym urządzeniu.",
