@@ -5,7 +5,8 @@ import { APP_VERSION, applyTextSize } from '../state.js';
 import { esc, go, toast, fmtDate } from '../ui.js';
 import { loadPaymentsConfig, isLiveMode, licenseStatus, removeLicense } from '../license.js';
 import { paywallMode } from '../promo.js';
-import { licenseFormHtml, bindLicenseForm, planName } from './activate.js';
+import { licenseFormHtml, bindLicenseForm, planName, restoreFormHtml, bindRestoreForm } from './activate.js';
+import { licenseApiUrl } from '../checkout.js';
 
 export function exportData() {
   const data = {};
@@ -86,6 +87,7 @@ export async function renderSettings(app) {
           ? `<button type="button" class="btn secondary block" id="s-free">${esc(lic.active ? t('settings.license_remove') : t('settings.restore_free'))}</button>`
           : `<a class="btn gold block" href="#/paywall">${esc(t('settings.see_premium'))}</a>`}
         ${licenseFormHtml({ id: 'slic' })}
+        ${licenseApiUrl(cfg) && !(premium && lic.active) ? restoreFormHtml({ id: 'srst' }) : ''}
         ${mode === 'sim' ? `<p class="muted small">${esc(t('paywall.simulation'))}</p>` : ''}
       </div>
 
@@ -99,7 +101,9 @@ export async function renderSettings(app) {
         <div class="link-list">
           <a href="legal/privacy.html">${esc(t('settings.privacy_policy'))} →</a>
           <a href="legal/terms.html">${esc(t('settings.terms'))} →</a>
+          <a href="legal/refund.html">${esc(t('settings.refund_policy'))} →</a>
         </div>
+        <p class="muted small" lang="en">English: <a href="legal/en/terms.html">Terms</a> · <a href="legal/en/privacy.html">Privacy</a> · <a href="legal/en/refund.html">Refunds</a></p>
       </div>
 
       <h2>${esc(t('settings.data_h'))}</h2>
@@ -122,6 +126,7 @@ export async function renderSettings(app) {
       <p class="center muted small" style="margin-top:24px">${esc(t('settings.medical_notice'))}</p>
       <p class="center muted small">${esc(t('settings.version', { v: APP_VERSION }))}</p>`;
     bindLicenseForm(app, { id: 'slic', onSuccess: () => setTimeout(draw, 1500) });
+    bindRestoreForm(app, { id: 'srst', cfg, onSuccess: () => setTimeout(draw, 1500) });
   }
 
   app.onchange = (e) => {

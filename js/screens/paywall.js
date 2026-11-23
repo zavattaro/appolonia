@@ -5,9 +5,9 @@ import { t } from '../i18n.js';
 import { isPremium, setPremium } from '../storage.js';
 import { getSession } from '../state.js';
 import { loadPaymentsConfig, isLiveMode } from '../license.js';
-import { openCheckout } from '../checkout.js';
+import { openCheckout, claimPurchase, licenseApiUrl, closeCheckout } from '../checkout.js';
 import { paywallMode } from '../promo.js';
-import { licenseFormHtml, bindLicenseForm } from './activate.js';
+import { licenseFormHtml, bindLicenseForm, purchaseErrorText } from './activate.js';
 import { esc, go, toast, announce } from '../ui.js';
 
 function ctaLabel(plan, live, trialDays) {
@@ -38,6 +38,9 @@ export async function renderPaywall(app, r) {
   let plan = 'lifetime';
   let thanks = false;
   let msg = '';
+  let confirm = null; // null | 'working' | 'ok' | 'error' (licencja automatyczna)
+  let confirmReason = '';
+  let txnId = '';
   const afterUnlock = next ? `#/session/${encodeURIComponent(next)}` : '#/library';
 
   function planBtn(id, { title, price, note, tag, featured }) {
@@ -58,6 +61,38 @@ export async function renderPaywall(app, r) {
     </button>`;
   }
 
+  function confirmHtml() {
+    if (confirm === 'working') return `<div class="notice" role="status" id="pw-confirm"><p><strong>${esc(t('purchase.confirming'))}</strong></p><p class="small">${esc(t('purchase.confirming_hint'))}</p></div>`;
+    if (confirm === 'ok') return `<div class="notice" role="status" id="pw-confirm-ok"><p><strong>${esc(t('purchase.ok'))}</strong></p></div>`;
+    if (confirm === 'error') return `<div class="notice" role="alert" id="pw-confirm-err"><p><strong>${esc(t('purchase.err_title'))}</strong></p>
+      <p class="small">${esc(purchaseErrorText(confirmReason))}</p><p class="small">${esc(t('purchase.err_hint'))}</p>
+      ${txnId ? `<p class="small">${esc(t('purchase.txn_is', { txn: txnId }))}</p>` : ''}
+      <button type="button" class="btn block" id="pw-retry">${esc(t('purchase.retry'))}</button></div>`;
+    return '';
+  }
+
+  async function runClaim(txn) {
+    txnId = txn; confirm = 'working'; confirmReason = ''; draw();
+    announce(t('purchase.confirming'));
+    const r = await claimPurchase(txn, cfg);
+    if (!app.isConnected) return;
+    if (r.ok) {
+      confirm = 'ok'; closeCheckout(); draw();
+      toast(t('license.toast_ok')); announce(t('purchase.ok'));
+    } else {
+      confirm = 'error'; confirmReason = r.reason; draw();
+      announce(t('purchase.err_title'));
+    }
+  }
+
+  function onCheckoutEvent(ev) {
+    if (!ev || ev.name !== 'checkout.completed') return;
+    const txn = ev.data && ev.data.transaction_id;
+    if (licenseApiUrl(cfg) && txn) { runClaim(txn); return; }
+    thanks = true; msg = ''; draw();
+    announce(t('paywall.thanks_title'));
+  }
+
   function draw() {
     const premium = isPremium();
     app.innerHTML = `
@@ -74,6 +109,7 @@ export async function renderPaywall(app, r) {
         <li>${esc(t('paywall.benefit_offline'))}</li>
         <li>${esc(t('paywall.benefit_support'))}</li>
       </ul>
+      ${confirmHtml()}
       ${premium ? `
         <div class="card center"><p><strong>${esc(mode === 'sim' ? t('paywall.already') : t('paywall.already_live'))}</strong></p>
         <a class="btn block" href="${afterUnlock}">${esc(t('paywall.continue'))}</a></div>`
@@ -89,7 +125,7 @@ export async function renderPaywall(app, r) {
       ${mode === 'promo'
         ? `<a class="btn block" id="pw-promo-go" href="${afterUnlock}">${esc(nextSession ? t('promo.go_session') : t('promo.go_library'))}</a>`
         : `<a class="btn ghost block" href="${next ? '#/library' : '#/home'}">${esc(t('paywall.not_now'))}</a>`}
-      ${licenseFormHtml({ id: 'pwlic', open: thanks })}
+      ${licenseFormHtml({ id: 'pwlic', open: thanks || confirm === 'error' })}
       ${canBuy ? `<p class="muted small center">${esc(t('paywall.renewal', { n: trialDays, price: dp.yearly || '' }))}</p>
       <p class="muted small center">${esc(t('paywall.privacy_note'))}</p>` : `<p class="muted small center">${esc(t('paywall.privacy_note_nobuy'))}</p>`}`}`;
     bindLicenseForm(app, { id: 'pwlic', onSuccess: () => setTimeout(() => go(afterUnlock), 1200) });
@@ -98,6 +134,7 @@ export async function renderPaywall(app, r) {
   app.onclick = async (e) => {
     const p = e.target.closest('[data-plan]');
     if (p && canBuy) { plan = p.dataset.plan; msg = ''; draw(); app.querySelector(`[data-plan="${plan}"]`)?.focus(); return; }
+    if (e.target.closest('#pw-retry')) { if (txnId) runClaim(txnId); return; }
     if (!e.target.closest('#pw-start') || !canBuy) return;
     if (mode === 'sim') {
       setPremium(true);
@@ -107,14 +144,7 @@ export async function renderPaywall(app, r) {
     }
     const btn = app.querySelector('#pw-start');
     btn.disabled = true;
-    const res = await openCheckout(plan, cfg, {
-      onEvent: (ev) => {
-        if (ev && ev.name === 'checkout.completed') {
-          thanks = true; msg = ''; draw();
-          announce(t('paywall.thanks_title'));
-        }
-      },
-    });
+    const res = await openCheckout(plan, cfg, { onEvent: onCheckoutEvent });
     if (!app.isConnected) return;
     btn.disabled = false;
     msg = res.ok ? '' : checkoutError(res.reason);
