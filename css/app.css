@@ -300,6 +300,9 @@ body.player-mode { background: linear-gradient(180deg, var(--bg), color-mix(in s
 .license-form { padding: 0 16px 16px; }
 .license-form label { display: block; font-weight: 600; margin-bottom: 6px; }
 .license-form textarea { width: 100%; box-sizing: border-box; font: .9rem/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; padding: 10px 12px; border: 2px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--text); resize: vertical; word-break: break-all; }
+.license-form input.txn { width: 100%; box-sizing: border-box; font: 1rem/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; padding: 10px 12px; min-height: 48px; border: 2px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--text); margin-bottom: 8px; }
+.license-form input.txn:focus { outline: 3px solid var(--accent); outline-offset: 1px; }
+.license-form input.txn[aria-invalid="true"] { border-color: var(--danger); }
 .license-form textarea:focus { outline: 3px solid var(--accent); outline-offset: 1px; }
 .license-form textarea[aria-invalid="true"] { border-color: var(--danger); }
 .license-msg { min-height: 1.2em; margin: 10px 0 0; font-weight: 600; }
