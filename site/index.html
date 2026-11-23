@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<script>
+  /* Adres aplikacji. Na produkcji aplikacja leży w katalogu głównym, a strona w /site/. */
+  const APP_URL = '../index.html';
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Appolonia — modlitwa i chwila ciszy z Bogiem</title>
+<meta name="description" content="Appolonia prowadzi cię krok po kroku przez różaniec, Koronkę do Miłosierdzia Bożego, psalmy i chwile ciszy. W Adwencie cała aplikacja za darmo. Po polsku, bez konta, bez reklam, także offline.">
+<!-- https://zavattaro.github.io/appolonia/site = publiczny adres katalogu site/ (bez końcowego „/”), np. https://appolonia.app/site — podmień: python3 scripts/set_base_url.py https://… -->
+<link rel="canonical" href="https://zavattaro.github.io/appolonia/site/">
+<meta name="theme-color" content="#1F3A5F" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#10161F" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zavattaro.github.io/appolonia/site/">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="Appolonia">
+<meta property="og:title" content="Appolonia — chwila modlitwy i ciszy z Bogiem, każdego dnia">
+<meta property="og:description" content="Prowadzona modlitwa po polsku: różaniec, Koronka, Anioł Pański, psalmy i cisza. Bez konta, bez reklam, także offline.">
+<meta property="og:image" content="https://zavattaro.github.io/appolonia/site/screenshots/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Appolonia — ekran modlitwy z Psalmem 23">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="192x192" href="../icons/icon-192.png">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Appolonia",
+  "description": "Prowadzona modlitwa katolicka po polsku: różaniec, Koronka do Miłosierdzia Bożego, Anioł Pański, rachunek sumienia, psalmy i cisza. Bez konta, bez reklam, także offline.",
+  "applicationCategory": "LifestyleApplication",
+  "operatingSystem": "Android, iOS, Windows, macOS (przeglądarka internetowa)",
+  "inLanguage": "pl",
+  "url": "https://zavattaro.github.io/appolonia/site/",
+  "image": "https://zavattaro.github.io/appolonia/site/screenshots/og.png",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "PLN",
+    "description": "Adwent za darmo: cała aplikacja bezpłatnie do 24 grudnia 2026 r. Wersja darmowa pozostaje bezpłatna także później.",
+    "availability": "https://schema.org/InStock",
+    "url": "https://zavattaro.github.io/appolonia/site/"
+  }
+}
+</script>
+<style>
+:root{
+  --primary:#1F3A5F; --primary-dark:#142840; --accent:#C9A45C; --accent-ink:#7A5A1E;
+  --bg:#FAF7F0; --bg-alt:#F3EEE3; --surface:#FFFFFF; --text:#1E2430; --muted:#5A6372;
+  --line:rgba(31,58,95,.12); --shadow:0 10px 30px rgba(20,40,64,.10);
+  --on-primary:#FAF7F0; --btn-text:#1E2430;
+  --serif:Georgia,'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua','Times New Roman',serif;
+  --sans:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  --r:18px; --max:1080px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --primary:#8FB0D9; --primary-dark:#0E1A2B; --accent:#D9B977; --accent-ink:#D9B977;
+    --bg:#10161F; --bg-alt:#141C27; --surface:#1A2330; --text:#ECE8DF; --muted:#A9B1BD;
+    --line:rgba(236,232,223,.10); --shadow:0 10px 30px rgba(0,0,0,.35);
+    --on-primary:#ECE8DF; --btn-text:#10161F;
+  }
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 var(--sans);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--primary)}
+h1,h2,h3{font-family:var(--serif);font-weight:700;line-height:1.2;margin:0 0 .5em;letter-spacing:-.01em}
+h2{font-size:clamp(1.7rem,4.6vw,2.4rem);text-align:center}
+p{margin:0 0 1em}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+.eyebrow{font:600 .78rem/1.2 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--accent-ink);text-align:center;margin-bottom:.7rem}
+.lead{color:var(--muted);text-align:center;max-width:38rem;margin:0 auto 2rem}
+section{padding:64px 0}
+.alt{background:var(--bg-alt)}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:12px;top:12px;z-index:9;background:var(--surface);padding:8px 12px;border-radius:8px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+
+/* nagłówek */
+.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:saturate(1.2) blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);font:700 1.25rem var(--serif)}
+.brand img{width:34px;height:34px;border-radius:9px}
+.top nav{display:flex;gap:6px;align-items:center}
+.top nav a.link{display:none;text-decoration:none;color:var(--muted);font-size:.95rem;padding:8px 10px}
+.top nav a.link:hover{color:var(--text)}
+@media (min-width:760px){.top nav a.link{display:inline-block}}
+
+/* przyciski */
+.btn{display:inline-flex;align-items:center;justify-content:center;text-align:center;gap:8px;min-height:48px;padding:12px 24px;border-radius:999px;font:600 1rem/1.2 var(--sans);text-decoration:none;border:2px solid transparent;transition:transform .15s ease,box-shadow .15s ease;cursor:pointer}
+.btn:hover{transform:translateY(-1px)}
+.btn-gold{background:var(--accent);color:var(--btn-text);box-shadow:0 6px 18px rgba(201,164,92,.35)}
+.btn-ghost{background:transparent;color:var(--text);border-color:color-mix(in srgb,var(--text) 22%,transparent)}
+.btn-sm{min-height:40px;padding:8px 16px;font-size:.92rem}
+.btn-block{width:100%}
+
+/* hero */
+.hero{padding:40px 0 56px;background:
+  radial-gradient(60rem 30rem at 85% -10%,color-mix(in srgb,var(--accent) 18%,transparent),transparent 60%),
+  linear-gradient(180deg,var(--bg) 0%,var(--bg-alt) 100%)}
+.hero .wrap{display:grid;gap:36px;align-items:center}
+.hero h1{font-size:clamp(2.1rem,7.4vw,3.6rem);margin-bottom:.4em}
+.hero h1 em{font-style:italic;color:var(--accent-ink);font-weight:700}
+.hero p.sub{font-size:1.12rem;color:var(--muted);max-width:34rem}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin:1.6rem 0 1rem}
+.trust{display:flex;flex-wrap:wrap;gap:6px 18px;padding:0;margin:0;list-style:none;color:var(--muted);font-size:.92rem}
+.trust li::before{content:"✓ ";color:var(--accent-ink);font-weight:700}
+.phone{border-radius:34px;padding:9px;background:#0B121E;box-shadow:0 0 0 2px var(--accent),var(--shadow),0 30px 60px rgba(20,40,64,.18);max-width:290px;margin:0 auto}
+.phone img{border-radius:26px;width:100%}
+@media (min-width:860px){
+  .hero{padding:72px 0 88px}
+  .hero .wrap{grid-template-columns:1.15fr .85fr}
+  .phone{max-width:320px}
+}
+
+/* adwent */
+.advent{padding:0;margin-top:-28px;position:relative;z-index:1}
+.advent .card{display:flex;gap:18px;align-items:center;background:linear-gradient(135deg,#1F3A5F,#142840);color:#FAF7F0;border-radius:var(--r);padding:22px 22px;box-shadow:var(--shadow);border:1px solid rgba(201,164,92,.45)}
+.advent .ic{flex:0 0 auto;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:rgba(201,164,92,.18);font-size:1.7rem}
+.advent h2{font-size:1.3rem;text-align:left;margin:0 0 .25em;color:#FAF7F0}
+.advent p{margin:0;color:rgba(250,247,240,.85);font-size:.98rem}
+.advent strong{color:#E6CB8F}
+.promo-strip{display:inline-block;margin:0 0 1rem;padding:6px 14px;border-radius:999px;background:color-mix(in srgb,var(--accent) 20%,transparent);border:1px solid var(--accent);color:var(--text);font:600 .9rem/1.4 var(--sans)}
+.blog-links{display:flex;flex-wrap:wrap;gap:8px 20px}
+.per.soon{color:var(--accent-ink);font-weight:600}
+
+/* treści */
+.grid{display:grid;gap:14px;grid-template-columns:1fr}
+@media (min-width:560px){.grid.c2{grid-template-columns:1fr 1fr}}
+@media (min-width:900px){.grid.c4{grid-template-columns:repeat(4,1fr)}.grid.c3{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:560px) and (max-width:899px){.grid.c4{grid-template-columns:1fr 1fr}.grid.c3{grid-template-columns:1fr 1fr}}
+@media (max-width:559px){.grid.c4{grid-template-columns:1fr 1fr;gap:10px}.grid.c4 .tile{padding:16px 14px}.grid.c4 .tile h3{font-size:1.02rem}.grid.c4 .tile p{font-size:.88rem}}
+@media (max-width:339px){.grid.c4{grid-template-columns:1fr}}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px;box-shadow:0 1px 0 var(--line)}
+.tile .e{font-size:1.6rem;line-height:1;display:block;margin-bottom:10px}
+.tile h3{font-size:1.15rem;margin-bottom:.3em}
+.tile p{color:var(--muted);font-size:.95rem;margin:0}
+
+/* kroki */
+.steps{counter-reset:s;list-style:none;padding:0;margin:0}
+.steps li{position:relative;padding:20px 20px 20px 76px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.steps li::before{counter-increment:s;content:counter(s);position:absolute;left:20px;top:20px;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--primary);color:var(--bg);font:700 1.1rem var(--serif)}
+.steps h3{font-size:1.15rem;margin-bottom:.25em}
+.steps p{margin:0;color:var(--muted);font-size:.96rem}
+
+/* galeria */
+.shots{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px 4px 20px;margin:0 -20px;padding-left:20px;padding-right:20px;-webkit-overflow-scrolling:touch}
+.shots figure{flex:0 0 72%;max-width:280px;margin:0;scroll-snap-align:center}
+.shots .phone{max-width:none}
+.shots figcaption{text-align:center;color:var(--muted);font-size:.92rem;margin-top:12px}
+@media (min-width:860px){.shots{justify-content:center;overflow:visible}.shots figure{flex:0 0 280px}}
+
+/* plany */
+.plans{display:grid;gap:16px;grid-template-columns:1fr;align-items:stretch}
+@media (min-width:640px){.plans{grid-template-columns:1fr 1fr}}
+@media (min-width:1000px){.plans{grid-template-columns:repeat(4,1fr)}}
+.plan{position:relative;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:24px 20px}
+.plan.best{border:2px solid var(--accent);box-shadow:var(--shadow)}
+.badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--accent);color:var(--btn-text);font:700 .74rem/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:7px 12px;border-radius:999px;white-space:nowrap}
+.plan h3{font-size:1.2rem;margin-bottom:.4em}
+.price{font:700 2.1rem/1.1 var(--serif);margin:.1em 0}
+.price small{font:500 .95rem var(--sans);color:var(--muted)}
+.per{color:var(--muted);font-size:.9rem;min-height:1.4em;margin-bottom:.8em}
+@media (min-width:1000px){.per{min-height:2.9em}}
+.plan ul{list-style:none;padding:0;margin:0 0 1.2em;font-size:.95rem;flex:1}
+.plan li{padding:5px 0 5px 24px;position:relative}
+.plan li::before{content:"✓";position:absolute;left:0;color:var(--accent-ink);font-weight:700}
+.note{text-align:center;color:var(--muted);font-size:.9rem;max-width:44rem;margin:22px auto 0}
+
+/* FAQ */
+.faq{max-width:760px;margin:0 auto}
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:14px;margin-bottom:10px}
+.faq summary{cursor:pointer;list-style:none;padding:16px 48px 16px 18px;font:700 1.06rem/1.35 var(--serif);position:relative;min-height:48px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);font:400 1.5rem var(--sans);color:var(--accent-ink)}
+.faq details[open] summary::after{content:"–"}
+.faq .a{padding:0 18px 16px;color:var(--muted)}
+.faq .a p:last-child{margin-bottom:0}
+.faq ol{padding-left:1.2em;margin:.3em 0 .8em}
+.faq h4{margin:.6em 0 .2em;color:var(--text);font:600 .98rem var(--sans)}
+
+/* zakończenie */
+.final{text-align:center;background:linear-gradient(180deg,var(--bg-alt),var(--bg))}
+.final p{color:var(--muted);max-width:32rem;margin:0 auto 1.4rem}
+.verse{font:italic 1.15rem/1.6 var(--serif);color:var(--text);max-width:34rem;margin:0 auto 1.6rem}
+.verse cite{display:block;font:normal .85rem var(--sans);color:var(--muted);margin-top:.4em}
+
+footer{border-top:1px solid var(--line);padding:36px 0 calc(36px + env(safe-area-inset-bottom));font-size:.92rem;color:var(--muted)}
+footer .wrap{display:grid;gap:14px}
+footer nav{display:flex;flex-wrap:wrap;gap:8px 20px}
+footer a{color:var(--muted)}
+footer .med{font-size:.86rem}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Przejdź do treści</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Appolonia — początek strony"><img src="../icons/icon-192.png" alt="" width="34" height="34">Appolonia</a>
+    <nav aria-label="Nawigacja">
+      <a class="link" href="#co-w-srodku">Co w środku</a>
+      <a class="link" href="#plany">Plany</a>
+      <a class="link" href="#pytania">Pytania</a>
+      <a class="link" href="blog/index.html">Blog</a>
+      <a class="btn btn-gold btn-sm" data-app href="../index.html">Otwórz</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap">
+      <div>
+        <p class="promo-strip">🕯️ Adwent 2026: cała aplikacja za darmo do 24 grudnia</p>
+        <h1>Chwila modlitwy i&nbsp;ciszy z&nbsp;Bogiem — <em>każdego&nbsp;dnia</em></h1>
+        <p class="sub">Appolonia prowadzi cię krok po kroku przez różaniec, Koronkę, psalmy i&nbsp;chwile ciszy. Spokojnie, po polsku, bez rozpraszaczy — także bez internetu.</p>
+        <div class="cta">
+          <a class="btn btn-gold" data-app href="../index.html">Otwórz aplikację</a>
+          <a class="btn btn-ghost" href="#plany">Zobacz plany</a>
+        </div>
+        <ul class="trust">
+          <li>bez konta</li><li>bez reklam</li><li>działa offline</li><li>darmowa wersja na zawsze</li>
+        </ul>
+      </div>
+      <div class="phone"><img src="screenshots/phone-3-player.png" width="720" height="1280" alt="Ekran modlitwy w Appolonii: Psalm 23 w formie parafrazy" fetchpriority="high"></div>
+    </div>
+  </section>
+
+  <section class="advent" aria-labelledby="adwent-h">
+    <div class="wrap">
+      <div class="card">
+        <div class="ic" aria-hidden="true">🕯️</div>
+        <div>
+          <h2 id="adwent-h">Adwent z Appolonią — w Adwencie cała aplikacja za darmo</h2>
+          <p><strong>Do 24 grudnia 2026 wszystkie sesje, także premium, są bezpłatne</strong> — bez konta, bez karty, bez żadnych zobowiązań. Od 29 listopada do Wigilii każdego dnia czeka też krótka modlitwa na czas oczekiwania na Boże Narodzenie.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="co-w-srodku" aria-labelledby="inside-h">
+    <div class="wrap">
+      <div class="eyebrow">Co znajdziesz w środku</div>
+      <h2 id="inside-h">Modlitwy, które znasz —&nbsp;w&nbsp;spokojnej formie</h2>
+      <p class="lead">Tradycyjne modlitwy Kościoła i chrześcijańska medytacja, podane krok po kroku. Wybierasz, ile masz czasu: od 5 do 20 minut.</p>
+      <div class="grid c4">
+        <div class="tile"><span class="e" aria-hidden="true">📿</span><h3>Różaniec</h3><p>Tajemnice radosne, światła, bolesne i chwalebne — z rozważaniem każdej tajemnicy.</p></div>
+        <div class="tile"><span class="e" aria-hidden="true">🕊️</span><h3>Koronka do Miłosierdzia Bożego</h3><p>Modlitwa ufności przekazana przez św. Faustynę.</p></div>
+        <div class="tile"><span class="e" aria-hidden="true">🔔</span><h3>Anioł Pański</h3><p>Krótka chwila z Maryją w środku dnia.</p></div>
+        <div class="tile"><span class="e" aria-hidden="true">🕯️</span><h3>Rachunek sumienia</h3><p>Spokojne podsumowanie dnia i przygotowanie do spowiedzi.</p></div>
+        <div class="tile"><span class="e" aria-hidden="true">📖</span><h3>Lectio divina</h3><p>Modlitewne czytanie Słowa Bożego: czytam, rozważam, odpowiadam.</p></div>
+        <div class="tile"><span class="e" aria-hidden="true">🎵</span><h3>Psalmy</h3><p>Psalm 23, 91, 121, 139 — powoli, wers po wersie.</p></div>
+        <div class="tile"><span class="e" aria-hidden="true">🌙</span><h3>Modlitwa wieczorna</h3><p>Wyciszenie przed snem i oddanie dnia Bogu.</p></div>
+        <div class="tile"><span class="e" aria-hidden="true">✨</span><h3>Cisza</h3><p>Modlitwa kontemplacyjna: Modlitwa Jezusowa i trwanie w obecności Boga.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" aria-labelledby="how-h">
+    <div class="wrap">
+      <div class="eyebrow">Jak to działa</div>
+      <h2 id="how-h">Trzy kroki do chwili ciszy</h2>
+      <p class="lead">Bez zakładania konta, bez logowania. Po prostu zaczynasz.</p>
+      <ol class="steps grid c3">
+        <li><h3>Otwórz Appolonię</h3><p>W przeglądarce telefonu. Jeśli chcesz, dodaj ją do ekranu głównego — będzie działać jak zwykła aplikacja.</p></li>
+        <li><h3>Wybierz modlitwę</h3><p>Sesja dnia czeka na ekranie głównym (np. tajemnice różańca na dany dzień tygodnia) albo wybierz coś z biblioteki.</p></li>
+        <li><h3>Módl się w swoim tempie</h3><p>Tekst pojawia się krok po kroku, z zegarem i delikatnym dzwonkiem. Możesz zatrzymać, cofnąć albo przejść dalej.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section aria-labelledby="shots-h">
+    <div class="wrap">
+      <div class="eyebrow">Zobacz, jak wygląda</div>
+      <h2 id="shots-h">Prosta, spokojna, czytelna</h2>
+      <p class="lead">Duży tekst, stonowane kolory i tryb ciemny na wieczorną modlitwę.</p>
+      <div class="shots">
+        <figure><div class="phone"><img src="screenshots/phone-1-home.png" width="720" height="1280" loading="lazy" alt="Ekran główny: sesja dnia — tajemnice radosne różańca"></div><figcaption>Sesja dnia na start</figcaption></figure>
+        <figure><div class="phone"><img src="screenshots/phone-3-player.png" width="720" height="1280" loading="lazy" alt="Odtwarzacz modlitwy z tekstem Psalmu 23"></div><figcaption>Modlitwa krok po kroku</figcaption></figure>
+        <figure><div class="phone"><img src="screenshots/phone-5-player-dark.png" width="720" height="1280" loading="lazy" alt="Modlitwa przed snem w trybie ciemnym: Psalm 4,9"></div><figcaption>Tryb ciemny na wieczór</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" aria-labelledby="why-h">
+    <div class="wrap">
+      <div class="eyebrow">Dlaczego Appolonia</div>
+      <h2 id="why-h">Modlitwa to sprawa między tobą a&nbsp;Bogiem</h2>
+      <p class="lead">Dlatego Appolonia niczego o tobie nie zbiera i nie walczy o twoją uwagę.</p>
+      <div class="grid c3">
+        <div class="tile"><span class="e" aria-hidden="true">🔓</span><h3>Bez konta</h3><p>Nie podajesz e-maila ani hasła. Otwierasz i od razu się modlisz.</p></div>
+        <div class="tile"><span class="e" aria-hidden="true">🚫</span><h3>Bez reklam i śledzenia</h3><p>Żadnych reklam, żadnej analityki działającej po cichu.</p></div>
+        <div class="tile"><span class="e" aria-hidden="true">📶</span><h3>Działa offline</h3><p>Po pierwszym otwarciu modlisz się także w samolocie, w górach czy w kościele bez zasięgu.</p></div>
+        <div class="tile"><span class="e" aria-hidden="true">📱</span><h3>Dane tylko na twoim telefonie</h3><p>Ulubione, postępy i ustawienia zostają na urządzeniu. W każdej chwili możesz je wyeksportować lub usunąć.</p></div>
+        <div class="tile"><span class="e" aria-hidden="true">📜</span><h3>Teksty, którym możesz zaufać</h3><p>Teksty Pisma Świętego w formie własnych parafraz, wiernych sensowi oryginału — zawsze oznaczone. Tradycyjne modlitwy Kościoła.</p></div>
+        <div class="tile"><span class="e" aria-hidden="true">🤝</span><h3>Uczciwa cena</h3><p>Hojna wersja darmowa, a jeśli wolisz nie mieć subskrypcji — jedna płatność na zawsze.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="plany" aria-labelledby="plans-h">
+    <div class="wrap">
+      <div class="eyebrow">Plany</div>
+      <h2 id="plans-h">Zacznij za darmo. Rozwijaj się, kiedy chcesz.</h2>
+      <p class="lead">Różaniec, Koronka i Anioł Pański są darmowe — zawsze. Premium otwiera całą bibliotekę.<br><strong>W Adwencie cała aplikacja jest za darmo, a płatne plany zaczną obowiązywać od 25 grudnia 2026.</strong> Do tego czasu niczego nie kupujesz.</p>
+      <div class="plans">
+        <div class="plan">
+          <h3>Darmowy</h3>
+          <div class="price">0 zł</div>
+          <div class="per">na zawsze</div>
+          <ul>
+            <li>Różaniec — wszystkie 4 części</li>
+            <li>Koronka do Miłosierdzia Bożego</li>
+            <li>Anioł Pański i rachunek sumienia</li>
+            <li>Wybrane psalmy, lectio divina i cisza</li>
+            <li>Adwent z Appolonią</li>
+          </ul>
+          <a class="btn btn-ghost btn-block" data-app href="../index.html">Zacznij za darmo</a>
+        </div>
+        <div class="plan">
+          <h3>Miesięczny</h3>
+          <div class="price">14,99 zł <small>/ mies.</small></div>
+          <div class="per soon">od 25 grudnia 2026</div>
+          <ul>
+            <li>Pełna biblioteka sesji</li>
+            <li>Nowe modlitwy, gdy się pojawią</li>
+            <li>Anulujesz w każdej chwili</li>
+          </ul>
+          <a class="btn btn-ghost btn-block" data-app href="../index.html">W Adwencie za darmo</a>
+        </div>
+        <div class="plan best">
+          <span class="badge">Najkorzystniejszy</span>
+          <h3>Roczny</h3>
+          <div class="price">89 zł <small>/ rok</small></div>
+          <div class="per soon">od 25 grudnia 2026<br><span style="font-weight:400;color:var(--muted)">ok. 7,42 zł miesięcznie, pierwsze 7 dni za darmo</span></div>
+          <ul>
+            <li>Pełna biblioteka sesji</li>
+            <li>Nowe modlitwy, gdy się pojawią</li>
+            <li>7 dni na spokojne wypróbowanie</li>
+          </ul>
+          <a class="btn btn-gold btn-block" data-app href="../index.html">W Adwencie za darmo</a>
+        </div>
+        <div class="plan">
+          <h3>Na zawsze</h3>
+          <div class="price">179 zł</div>
+          <div class="per soon">od 25 grudnia 2026<br><span style="font-weight:400;color:var(--muted)">jednorazowo, bez subskrypcji</span></div>
+          <ul>
+            <li>Pełna biblioteka bez limitu czasu</li>
+            <li>Płacisz raz i masz spokój</li>
+            <li>Bez odnawiania i przypomnień</li>
+          </ul>
+          <a class="btn btn-ghost btn-block" data-app href="../index.html">W Adwencie za darmo</a>
+        </div>
+      </div>
+      <p class="note">Do 24 grudnia 2026 (23:59 czasu polskiego) wszystkie sesje są bezpłatne i nie trzeba niczego kupować; promocja nie zamienia się sama w płatną subskrypcję. Ceny planów płatnych zawierają VAT. Jeśli anulujesz okres próbny przed jego końcem, nic nie zapłacisz. Subskrypcja odnawia się automatycznie do czasu anulowania. Szczegóły, w tym prawo odstąpienia od umowy, znajdziesz w <a href="../legal/terms.html">regulaminie</a>.</p>
+    </div>
+  </section>
+
+  <section class="alt" id="pytania" aria-labelledby="faq-h">
+    <div class="wrap">
+      <div class="eyebrow">Pytania</div>
+      <h2 id="faq-h">Najczęstsze pytania</h2>
+      <div class="faq">
+        <details>
+          <summary>Czy Appolonia jest katolicka?</summary>
+          <div class="a"><p>Tak. Appolonia opiera się na tradycyjnych modlitwach Kościoła katolickiego: różańcu, Koronce do Miłosierdzia Bożego, Aniele Pańskim, rachunku sumienia i lectio divina. Fragmenty biblijne to nasze własne parafrazy, wierne sensowi oryginału i zawsze oznaczone.</p><p>Appolonia pomaga w codziennej modlitwie, ale nie zastępuje Mszy Świętej, sakramentów ani kierownictwa duchowego.</p></div>
+        </details>
+        <details>
+          <summary>Czy potrzebuję internetu?</summary>
+          <div class="a"><p>Tylko przy pierwszym otwarciu. Potem Appolonia zapisuje się w pamięci telefonu i działa całkowicie offline — wszystkie modlitwy, dzwonki i zegar.</p></div>
+        </details>
+        <details>
+          <summary>Jak anulować subskrypcję?</summary>
+          <div class="a"><p>W każdej chwili, bez podawania powodu. Link do zarządzania subskrypcją znajdziesz w e-mailu z potwierdzeniem zakupu. Po anulowaniu zachowujesz dostęp do końca opłaconego okresu, a potem wracasz do wersji darmowej — twoje postępy i ulubione zostają.</p><p>Plan „Na zawsze” to jednorazowa płatność — nie ma czego anulować.</p></div>
+        </details>
+        <details>
+          <summary>Co dzieje się z moimi danymi?</summary>
+          <div class="a"><p>Nic nie opuszcza twojego telefonu. Nie zakładasz konta, nie wysyłamy twoich ulubionych, postępów ani ustawień na żaden serwer i nie używamy reklam ani śledzenia. W ustawieniach aplikacji możesz wyeksportować swoje dane albo usunąć je jednym przyciskiem. Więcej w <a href="../legal/privacy.html">polityce prywatności</a>.</p></div>
+        </details>
+        <details>
+          <summary>Czy działa na iPhonie i na Androidzie?</summary>
+          <div class="a"><p>Tak. Appolonia działa w przeglądarce na każdym nowoczesnym telefonie — iPhonie (Safari) i Androidzie (Chrome) — a także na tablecie i komputerze. Nie musisz niczego pobierać ze sklepu.</p></div>
+        </details>
+        <details>
+          <summary>Jak zainstalować Appolonię na telefonie?</summary>
+          <div class="a">
+            <h4>Android (Chrome)</h4>
+            <ol>
+              <li>Otwórz Appolonię w Chrome.</li>
+              <li>Stuknij menu <strong>⋮</strong> w prawym górnym rogu.</li>
+              <li>Wybierz <strong>„Zainstaluj aplikację”</strong> lub <strong>„Dodaj do ekranu głównego”</strong>.</li>
+            </ol>
+            <h4>iPhone (Safari)</h4>
+            <ol>
+              <li>Otwórz Appolonię w Safari.</li>
+              <li>Stuknij przycisk <strong>Udostępnij</strong> (kwadrat ze strzałką w górę).</li>
+              <li>Przewiń w dół i wybierz <strong>„Do ekranu początkowego”</strong>, a potem <strong>„Dodaj”</strong>.</li>
+            </ol>
+            <p>Ikona Appolonii pojawi się obok innych aplikacji i otworzy się na pełnym ekranie, także bez internetu.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Czy to aplikacja terapeutyczna?</summary>
+          <div class="a"><p>Nie. Appolonia jest aplikacją do modlitwy o charakterze religijnym. Nie jest wyrobem medycznym i nie zastępuje porady lekarza ani psychoterapeuty. Jeśli przeżywasz trudny czas, porozmawiaj ze specjalistą lub zadzwoń pod bezpłatny numer 116 123.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="final" aria-labelledby="final-h">
+    <div class="wrap">
+      <h2 id="final-h">Znajdź dziś chwilę dla Boga</h2>
+      <p class="verse">„Kładę się i zasypiam w pokoju, bo Ty, Panie, strzeżesz mojego odpoczynku i przy Tobie nic mi nie grozi.”<cite>Ps 4,9 · parafraza</cite></p>
+      <p>Zacznij od jednej krótkiej modlitwy. Za darmo, bez konta.</p>
+      <a class="btn btn-gold" data-app href="../index.html">Otwórz aplikację</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <nav aria-label="Blog" class="blog-links">
+      <a href="blog/index.html"><strong>Blog</strong></a>
+      <a href="blog/roraty-2026.html">Roraty 2026</a>
+      <a href="blog/tajemnice-rozanca.html">Tajemnice różańca</a>
+      <a href="blog/koronka-do-milosierdzia-bozego.html">Koronka do Miłosierdzia Bożego</a>
+      <a href="blog/aniol-panski.html">Anioł Pański</a>
+      <a href="blog/rachunek-sumienia.html">Rachunek sumienia</a>
+      <a href="blog/adwent-2026.html">Adwent 2026</a>
+    </nav>
+    <nav aria-label="Informacje prawne">
+      <a href="../legal/privacy.html">Polityka prywatności</a>
+      <a href="../legal/terms.html">Regulamin</a>
+      <a href="mailto:appolonia.modlitwa@gmail.com">Kontakt: appolonia.modlitwa@gmail.com</a>
+    </nav>
+    <p class="med">Aplikacja nie jest wyrobem medycznym i nie zastępuje porady lekarza ani psychoterapeuty, a także sakramentów czy kierownictwa duchowego.</p>
+    <p>© 2026 Appolonia</p>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('[data-app]').forEach(function (a) {
+    a.setAttribute('href', APP_URL + (a.getAttribute('data-path') || ''));
+  });
+</script>
+</body>
+</html>
