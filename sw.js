@@ -1,7 +1,7 @@
 // Appolonia — service worker: cache-first, pełne działanie offline
 // UWAGA: nigdy nie dodawaj tu keys/ ani scripts/ (klucz prywatny licencji!).
 // cdn.paddle.com (checkout) jest spoza origin → nie jest cache'owany, działa tylko online.
-const CACHE_VERSION = 'appolonia-v11';
+const CACHE_VERSION = 'appolonia-v12';
 const PRECACHE = [
   './',
   './index.html',
