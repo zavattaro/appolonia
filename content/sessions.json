@@ -1,0 +1,3340 @@
+{
+  "categories": [
+    {
+      "id": "adwent",
+      "titleKey": "cat.adwent",
+      "icon": "🕯️"
+    },
+    {
+      "id": "rozaniec",
+      "titleKey": "cat.rozaniec",
+      "icon": "📿"
+    },
+    {
+      "id": "koronka",
+      "titleKey": "cat.koronka",
+      "icon": "🕊️"
+    },
+    {
+      "id": "aniol",
+      "titleKey": "cat.aniol",
+      "icon": "🔔"
+    },
+    {
+      "id": "rachunek",
+      "titleKey": "cat.rachunek",
+      "icon": "🕯️"
+    },
+    {
+      "id": "lectio",
+      "titleKey": "cat.lectio",
+      "icon": "📖"
+    },
+    {
+      "id": "psalmy",
+      "titleKey": "cat.psalmy",
+      "icon": "🎵"
+    },
+    {
+      "id": "wieczor",
+      "titleKey": "cat.wieczor",
+      "icon": "🌙"
+    },
+    {
+      "id": "cisza",
+      "titleKey": "cat.cisza",
+      "icon": "✨"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "rozaniec-radosne",
+      "category": "rozaniec",
+      "title": "Tajemnice radosne",
+      "subtitle": "Różaniec z Maryją – poniedziałek i sobota",
+      "durationMin": 20,
+      "premium": false,
+      "source": "Parafrazy Pisma Świętego (tekst własny) / modlitwa tradycyjna / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Tajemnice radosne prowadzą nas przez dzieciństwo Jezusa – od zwiastowania aż po odnalezienie w świątyni. Przy każdej tajemnicy zatrzymaj się na chwilę, a potem odmów dziesiątek różańca.",
+          "seconds": 45
+        },
+        {
+          "type": "text",
+          "title": "Wycisz się",
+          "text": "Usiądź wygodnie, weź różaniec do ręki. Zrób spokojny wdech i powolny wydech. Uczyń znak krzyża: W imię Ojca i Syna, i Ducha Świętego. Amen.",
+          "seconds": 30
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwy różańca",
+          "text": "Ojcze nasz:\nOjcze nasz, któryś jest w niebie, święć się imię Twoje, przyjdź królestwo Twoje, bądź wola Twoja jako w niebie, tak i na ziemi. Chleba naszego powszedniego daj nam dzisiaj i odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom. I nie wódź nas na pokuszenie, ale nas zbaw ode złego. Amen.\n\nZdrowaś Maryjo:\nZdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi teraz i w godzinę śmierci naszej. Amen.\n\nChwała Ojcu:\nChwała Ojcu i Synowi, i Duchowi Świętemu. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.\n\nPo każdym dziesiątku można dodać:\nO mój Jezu, przebacz nam nasze grzechy, zachowaj nas od ognia piekielnego, zaprowadź wszystkie dusze do nieba i dopomóż szczególnie tym, którzy najbardziej potrzebują Twojego miłosierdzia.",
+          "seconds": 60
+        },
+        {
+          "type": "scripture",
+          "title": "Tajemnica 1: Zwiastowanie Najświętszej Maryi Pannie",
+          "ref": "Łk 1,38 (parafraza)",
+          "text": "„Całą siebie oddaję Panu. Niech wszystko we mnie spełni się tak, jak mi zapowiedziałeś.”\n\nMaryja słucha i ufa. Poproś o serce otwarte na Boże słowo w twoim zwyczajnym dniu.",
+          "seconds": 25
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 1",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 2: Nawiedzenie świętej Elżbiety",
+          "text": "Maryja wyrusza w drogę, by pomóc krewnej. Pomyśl, komu możesz dziś okazać prostą życzliwość.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 2",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 3: Narodzenie Pana Jezusa",
+          "text": "Bóg przychodzi jako małe Dziecko w ubogiej stajni. Przyjmij Go z prostotą, z tym wszystkim, co dziś nosisz w sercu.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 3",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 4: Ofiarowanie Pana Jezusa w świątyni",
+          "text": "Maryja i Józef oddają Dziecko Bogu. Oddaj Mu w myślach to, co jest dla ciebie najcenniejsze.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 4",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 5: Odnalezienie Pana Jezusa w świątyni",
+          "text": "Rodzice z niepokojem szukają Jezusa i odnajdują Go w domu Ojca. Proś o łaskę szukania Boga, gdy wydaje się daleko.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 5",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "silence",
+          "title": "Chwila ciszy",
+          "text": "Trwaj przez chwilę w ciszy z Maryją. Powierz Bogu to, co dziś nosisz w sercu.",
+          "seconds": 30
+        },
+        {
+          "type": "prayer",
+          "title": "Witaj, Królowo",
+          "text": "Witaj, Królowo, Matko miłosierdzia, życie, słodyczy i nadziejo nasza, witaj! Do Ciebie wołamy wygnańcy, synowie Ewy; do Ciebie wzdychamy, jęcząc i płacząc na tym łez padole. Przeto, Orędowniczko nasza, one miłosierne oczy Twoje na nas zwróć, a Jezusa, błogosławiony owoc żywota Twojego, po tym wygnaniu nam okaż. O łaskawa, o litościwa, o słodka Panno Maryjo!\nV. Módl się za nami, święta Boża Rodzicielko.\nR. Abyśmy się stali godnymi obietnic Chrystusowych.",
+          "seconds": 45
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "rozaniec-swietla",
+      "category": "rozaniec",
+      "title": "Tajemnice światła",
+      "subtitle": "Różaniec – publiczna działalność Jezusa (czwartek)",
+      "durationMin": 20,
+      "premium": false,
+      "source": "Parafrazy Pisma Świętego (tekst własny) / modlitwa tradycyjna / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Tajemnice światła ukazują Jezusa w czasie Jego publicznej działalności. Przy każdej tajemnicy zatrzymaj się na chwilę, a potem odmów dziesiątek różańca.",
+          "seconds": 45
+        },
+        {
+          "type": "text",
+          "title": "Wycisz się",
+          "text": "Usiądź wygodnie, weź różaniec do ręki. Zrób spokojny wdech i powolny wydech. Uczyń znak krzyża: W imię Ojca i Syna, i Ducha Świętego. Amen.",
+          "seconds": 30
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwy różańca",
+          "text": "Ojcze nasz:\nOjcze nasz, któryś jest w niebie, święć się imię Twoje, przyjdź królestwo Twoje, bądź wola Twoja jako w niebie, tak i na ziemi. Chleba naszego powszedniego daj nam dzisiaj i odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom. I nie wódź nas na pokuszenie, ale nas zbaw ode złego. Amen.\n\nZdrowaś Maryjo:\nZdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi teraz i w godzinę śmierci naszej. Amen.\n\nChwała Ojcu:\nChwała Ojcu i Synowi, i Duchowi Świętemu. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.\n\nPo każdym dziesiątku można dodać:\nO mój Jezu, przebacz nam nasze grzechy, zachowaj nas od ognia piekielnego, zaprowadź wszystkie dusze do nieba i dopomóż szczególnie tym, którzy najbardziej potrzebują Twojego miłosierdzia.",
+          "seconds": 60
+        },
+        {
+          "type": "scripture",
+          "title": "Tajemnica 1: Chrzest Pana Jezusa w Jordanie",
+          "ref": "Mt 3,16-17 (parafraza)",
+          "text": "Gdy Jezus wyszedł z wody, otworzyły się niebiosa, a głos z nieba powiedział: To jest mój umiłowany Syn, w którym mam upodobanie.\n\nOjciec mówi o swoim umiłowanym Synu. Przypomnij sobie, że przez chrzest i ty jesteś Jego umiłowanym dzieckiem.",
+          "seconds": 25
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 1",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "scripture",
+          "title": "Tajemnica 2: Objawienie się Pana Jezusa na weselu w Kanie Galilejskiej",
+          "ref": "J 2,5 (parafraza)",
+          "text": "„Słuchajcie Go i róbcie to, o co was poprosi.”\n\nMaryja zauważa brak i prowadzi do Jezusa. Powierz Mu to, czego dziś brakuje w twoim domu.",
+          "seconds": 25
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 2",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 3: Głoszenie królestwa Bożego i wzywanie do nawrócenia",
+          "text": "Jezus zaprasza: nawracajcie się i wierzcie w Ewangelię. Pomyśl o jednym małym kroku ku Bogu, który możesz zrobić już dziś.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 3",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 4: Przemienienie na górze Tabor",
+          "text": "Uczniowie widzą chwałę Jezusa. Poproś o światło, które pomoże ci przejść przez trudniejsze dni.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 4",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 5: Ustanowienie Eucharystii",
+          "text": "Jezus daje nam siebie pod postaciami chleba i wina. Podziękuj za dar Mszy Świętej i Komunii.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 5",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "silence",
+          "title": "Chwila ciszy",
+          "text": "Trwaj przez chwilę w ciszy z Maryją. Powierz Bogu to, co dziś nosisz w sercu.",
+          "seconds": 30
+        },
+        {
+          "type": "prayer",
+          "title": "Witaj, Królowo",
+          "text": "Witaj, Królowo, Matko miłosierdzia, życie, słodyczy i nadziejo nasza, witaj! Do Ciebie wołamy wygnańcy, synowie Ewy; do Ciebie wzdychamy, jęcząc i płacząc na tym łez padole. Przeto, Orędowniczko nasza, one miłosierne oczy Twoje na nas zwróć, a Jezusa, błogosławiony owoc żywota Twojego, po tym wygnaniu nam okaż. O łaskawa, o litościwa, o słodka Panno Maryjo!\nV. Módl się za nami, święta Boża Rodzicielko.\nR. Abyśmy się stali godnymi obietnic Chrystusowych.",
+          "seconds": 45
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "rozaniec-bolesne",
+      "category": "rozaniec",
+      "title": "Tajemnice bolesne",
+      "subtitle": "Różaniec – męka Pańska (wtorek i piątek)",
+      "durationMin": 20,
+      "premium": false,
+      "source": "Parafrazy Pisma Świętego (tekst własny) / modlitwa tradycyjna / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Tajemnice bolesne prowadzą nas drogą męki Jezusa – z Ogrójca aż na Golgotę. Przy każdej tajemnicy zatrzymaj się na chwilę, a potem odmów dziesiątek różańca.",
+          "seconds": 45
+        },
+        {
+          "type": "text",
+          "title": "Wycisz się",
+          "text": "Usiądź wygodnie, weź różaniec do ręki. Zrób spokojny wdech i powolny wydech. Uczyń znak krzyża: W imię Ojca i Syna, i Ducha Świętego. Amen.",
+          "seconds": 30
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwy różańca",
+          "text": "Ojcze nasz:\nOjcze nasz, któryś jest w niebie, święć się imię Twoje, przyjdź królestwo Twoje, bądź wola Twoja jako w niebie, tak i na ziemi. Chleba naszego powszedniego daj nam dzisiaj i odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom. I nie wódź nas na pokuszenie, ale nas zbaw ode złego. Amen.\n\nZdrowaś Maryjo:\nZdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi teraz i w godzinę śmierci naszej. Amen.\n\nChwała Ojcu:\nChwała Ojcu i Synowi, i Duchowi Świętemu. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.\n\nPo każdym dziesiątku można dodać:\nO mój Jezu, przebacz nam nasze grzechy, zachowaj nas od ognia piekielnego, zaprowadź wszystkie dusze do nieba i dopomóż szczególnie tym, którzy najbardziej potrzebują Twojego miłosierdzia.",
+          "seconds": 60
+        },
+        {
+          "type": "scripture",
+          "title": "Tajemnica 1: Modlitwa Pana Jezusa w Ogrójcu",
+          "ref": "Łk 22,42 (parafraza)",
+          "text": "„Ojcze, jeśli taka jest Twoja wola, oddal ode mnie tę gorzką czarę. Lecz niech dokona się to, czego Ty pragniesz, a nie to, czego chcę ja.”\n\nJezus w lęku i samotności powierza się Ojcu. Złóż w Jego ręce to, co cię dziś przytłacza.",
+          "seconds": 25
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 1",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 2: Biczowanie Pana Jezusa",
+          "text": "Jezus w milczeniu przyjmuje cierpienie. Módl się za tych, którzy cierpią niesprawiedliwie.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 2",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 3: Cierniem ukoronowanie Pana Jezusa",
+          "text": "Król zostaje wyśmiany. Poproś o pokorę i o łagodność wobec tych, którzy cię ranią.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 3",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 4: Dźwiganie krzyża",
+          "text": "Jezus niesie krzyż, a Szymon z Cyreny pomaga Mu go nieść. Pomyśl, czyj ciężar możesz dziś choć trochę odciążyć.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 4",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 5: Śmierć Pana Jezusa na krzyżu",
+          "text": "Jezus oddaje życie z miłości do nas. Trwaj przy krzyżu razem z Maryją i Janem.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 5",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "silence",
+          "title": "Chwila ciszy",
+          "text": "Trwaj przez chwilę w ciszy z Maryją. Powierz Bogu to, co dziś nosisz w sercu.",
+          "seconds": 30
+        },
+        {
+          "type": "prayer",
+          "title": "Witaj, Królowo",
+          "text": "Witaj, Królowo, Matko miłosierdzia, życie, słodyczy i nadziejo nasza, witaj! Do Ciebie wołamy wygnańcy, synowie Ewy; do Ciebie wzdychamy, jęcząc i płacząc na tym łez padole. Przeto, Orędowniczko nasza, one miłosierne oczy Twoje na nas zwróć, a Jezusa, błogosławiony owoc żywota Twojego, po tym wygnaniu nam okaż. O łaskawa, o litościwa, o słodka Panno Maryjo!\nV. Módl się za nami, święta Boża Rodzicielko.\nR. Abyśmy się stali godnymi obietnic Chrystusowych.",
+          "seconds": 45
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "rozaniec-chwalebne",
+      "category": "rozaniec",
+      "title": "Tajemnice chwalebne",
+      "subtitle": "Różaniec – radość zmartwychwstania (środa i niedziela)",
+      "durationMin": 20,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / modlitwa tradycyjna / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Tajemnice chwalebne napełniają nas nadzieją – od pustego grobu aż po chwałę Maryi w niebie. Przy każdej tajemnicy zatrzymaj się na chwilę, a potem odmów dziesiątek różańca.",
+          "seconds": 45
+        },
+        {
+          "type": "text",
+          "title": "Wycisz się",
+          "text": "Usiądź wygodnie, weź różaniec do ręki. Zrób spokojny wdech i powolny wydech. Uczyń znak krzyża: W imię Ojca i Syna, i Ducha Świętego. Amen.",
+          "seconds": 30
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwy różańca",
+          "text": "Ojcze nasz:\nOjcze nasz, któryś jest w niebie, święć się imię Twoje, przyjdź królestwo Twoje, bądź wola Twoja jako w niebie, tak i na ziemi. Chleba naszego powszedniego daj nam dzisiaj i odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom. I nie wódź nas na pokuszenie, ale nas zbaw ode złego. Amen.\n\nZdrowaś Maryjo:\nZdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi teraz i w godzinę śmierci naszej. Amen.\n\nChwała Ojcu:\nChwała Ojcu i Synowi, i Duchowi Świętemu. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.\n\nPo każdym dziesiątku można dodać:\nO mój Jezu, przebacz nam nasze grzechy, zachowaj nas od ognia piekielnego, zaprowadź wszystkie dusze do nieba i dopomóż szczególnie tym, którzy najbardziej potrzebują Twojego miłosierdzia.",
+          "seconds": 60
+        },
+        {
+          "type": "scripture",
+          "title": "Tajemnica 1: Zmartwychwstanie Pana Jezusa",
+          "ref": "Mt 28,5-6 (parafraza)",
+          "text": "Anioł mówi do kobiet przy grobie: Nie lękajcie się! Wiem, że szukacie Jezusa, który był ukrzyżowany. Nie ma Go tu – powstał z martwych, tak jak sam zapowiadał.\n\nŻycie jest silniejsze niż śmierć. Pozwól, by ta radość dotknęła miejsc w tobie, które wydają się martwe.",
+          "seconds": 25
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 1",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 2: Wniebowstąpienie Pana Jezusa",
+          "text": "Jezus wraca do Ojca, ale obiecuje, że będzie z nami przez wszystkie dni. Pomyśl o niebie jako o swoim domu.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 2",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 3: Zesłanie Ducha Świętego",
+          "text": "Duch Święty napełnia apostołów odwagą. Poproś o Jego dary dla siebie i dla Kościoła.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 3",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 4: Wniebowzięcie Najświętszej Maryi Panny",
+          "text": "Maryja zostaje wzięta do nieba z duszą i ciałem. Ona pokazuje, dokąd zmierza nasza droga.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 4",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Tajemnica 5: Ukoronowanie Najświętszej Maryi Panny na Królową nieba i ziemi",
+          "text": "Maryja jest Królową i Matką. Powierz Jej swoją rodzinę i wszystkich, których kochasz.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 5",
+          "text": "Ojcze nasz…\n10 × Zdrowaś Maryjo…\nChwała Ojcu…\nO mój Jezu…\n\nMódl się spokojnie, w swoim tempie. Pozwól, by obraz tajemnicy towarzyszył słowom modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "silence",
+          "title": "Chwila ciszy",
+          "text": "Trwaj przez chwilę w ciszy z Maryją. Powierz Bogu to, co dziś nosisz w sercu.",
+          "seconds": 30
+        },
+        {
+          "type": "prayer",
+          "title": "Witaj, Królowo",
+          "text": "Witaj, Królowo, Matko miłosierdzia, życie, słodyczy i nadziejo nasza, witaj! Do Ciebie wołamy wygnańcy, synowie Ewy; do Ciebie wzdychamy, jęcząc i płacząc na tym łez padole. Przeto, Orędowniczko nasza, one miłosierne oczy Twoje na nas zwróć, a Jezusa, błogosławiony owoc żywota Twojego, po tym wygnaniu nam okaż. O łaskawa, o litościwa, o słodka Panno Maryjo!\nV. Módl się za nami, święta Boża Rodzicielko.\nR. Abyśmy się stali godnymi obietnic Chrystusowych.",
+          "seconds": 45
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "koronka-milosierdzia",
+      "category": "koronka",
+      "title": "Koronka do Miłosierdzia Bożego",
+      "subtitle": "Modlitwa ufności według św. Faustyny",
+      "durationMin": 13,
+      "premium": false,
+      "source": "Modlitwa tradycyjna (Dzienniczek św. Faustyny, 476) / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Koronkę do Miłosierdzia Bożego przekazał nam Pan Jezus przez świętą siostrę Faustynę. Odmawia się ją na zwykłym różańcu. To modlitwa ufności – za siebie i za cały świat.",
+          "seconds": 40
+        },
+        {
+          "type": "text",
+          "title": "Wycisz się",
+          "text": "Weź kilka spokojnych oddechów. Przypomnij sobie obraz Jezusa Miłosiernego z promieniami wychodzącymi z Serca. Uczyń znak krzyża.",
+          "seconds": 30
+        },
+        {
+          "type": "prayer",
+          "title": "Na początek",
+          "text": "Ojcze nasz:\nOjcze nasz, któryś jest w niebie, święć się imię Twoje, przyjdź królestwo Twoje, bądź wola Twoja jako w niebie, tak i na ziemi. Chleba naszego powszedniego daj nam dzisiaj i odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom. I nie wódź nas na pokuszenie, ale nas zbaw ode złego. Amen.\n\nZdrowaś Maryjo:\nZdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi teraz i w godzinę śmierci naszej. Amen.\n\nWierzę w Boga:\nWierzę w Boga, Ojca wszechmogącego, Stworzyciela nieba i ziemi, i w Jezusa Chrystusa, Syna Jego jedynego, Pana naszego, który się począł z Ducha Świętego, narodził się z Maryi Panny, umęczon pod Ponckim Piłatem, ukrzyżowan, umarł i pogrzebion. Zstąpił do piekieł, trzeciego dnia zmartwychwstał. Wstąpił na niebiosa, siedzi po prawicy Boga Ojca wszechmogącego. Stamtąd przyjdzie sądzić żywych i umarłych. Wierzę w Ducha Świętego, święty Kościół powszechny, świętych obcowanie, grzechów odpuszczenie, ciała zmartwychwstanie, żywot wieczny. Amen.",
+          "seconds": 90
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 1",
+          "text": "Na dużym paciorku:\nOjcze Przedwieczny, ofiaruję Ci Ciało i Krew, Duszę i Bóstwo najmilszego Syna Twojego, a Pana naszego Jezusa Chrystusa, na przebłaganie za grzechy nasze i całego świata.\n\nNa małych paciorkach (10 ×):\nDla bolesnej Jego męki miej miłosierdzie dla nas i całego świata.",
+          "seconds": 100
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 2",
+          "text": "Na dużym paciorku:\nOjcze Przedwieczny, ofiaruję Ci Ciało i Krew, Duszę i Bóstwo najmilszego Syna Twojego, a Pana naszego Jezusa Chrystusa, na przebłaganie za grzechy nasze i całego świata.\n\nNa małych paciorkach (10 ×):\nDla bolesnej Jego męki miej miłosierdzie dla nas i całego świata.",
+          "seconds": 100
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 3",
+          "text": "Na dużym paciorku:\nOjcze Przedwieczny, ofiaruję Ci Ciało i Krew, Duszę i Bóstwo najmilszego Syna Twojego, a Pana naszego Jezusa Chrystusa, na przebłaganie za grzechy nasze i całego świata.\n\nNa małych paciorkach (10 ×):\nDla bolesnej Jego męki miej miłosierdzie dla nas i całego świata.",
+          "seconds": 100
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 4",
+          "text": "Na dużym paciorku:\nOjcze Przedwieczny, ofiaruję Ci Ciało i Krew, Duszę i Bóstwo najmilszego Syna Twojego, a Pana naszego Jezusa Chrystusa, na przebłaganie za grzechy nasze i całego świata.\n\nNa małych paciorkach (10 ×):\nDla bolesnej Jego męki miej miłosierdzie dla nas i całego świata.",
+          "seconds": 100
+        },
+        {
+          "type": "prayer",
+          "title": "Dziesiątek 5",
+          "text": "Na dużym paciorku:\nOjcze Przedwieczny, ofiaruję Ci Ciało i Krew, Duszę i Bóstwo najmilszego Syna Twojego, a Pana naszego Jezusa Chrystusa, na przebłaganie za grzechy nasze i całego świata.\n\nNa małych paciorkach (10 ×):\nDla bolesnej Jego męki miej miłosierdzie dla nas i całego świata.",
+          "seconds": 100
+        },
+        {
+          "type": "prayer",
+          "title": "Na zakończenie (3 ×)",
+          "text": "Święty Boże, Święty Mocny, Święty Nieśmiertelny, zmiłuj się nad nami i nad całym światem.",
+          "seconds": 40
+        },
+        {
+          "type": "silence",
+          "title": "Chwila ciszy",
+          "text": "Powierz Jezusowi osoby, które szczególnie potrzebują dziś Jego miłosierdzia.",
+          "seconds": 45
+        },
+        {
+          "type": "prayer",
+          "title": "Akt ufności",
+          "text": "Jezu, ufam Tobie.",
+          "seconds": 10
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "aniol-panski",
+      "category": "aniol",
+      "title": "Anioł Pański",
+      "subtitle": "Krótka modlitwa w południe",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Modlitwa tradycyjna / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Od wieków w południe dzwony zapraszają do modlitwy Anioł Pański. To krótkie zatrzymanie w środku dnia, by przypomnieć sobie, że Bóg stał się człowiekiem.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Zatrzymaj się",
+          "text": "Odłóż na chwilę to, co robisz. Weź trzy spokojne oddechy.",
+          "seconds": 30
+        },
+        {
+          "type": "prayer",
+          "title": "Zwiastowanie",
+          "text": "V. Anioł Pański zwiastował Pannie Maryi.\nR. I poczęła z Ducha Świętego.\n\nZdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi teraz i w godzinę śmierci naszej. Amen.",
+          "seconds": 35
+        },
+        {
+          "type": "prayer",
+          "title": "Odpowiedź Maryi",
+          "text": "V. Oto ja służebnica Pańska.\nR. Niech mi się stanie według słowa twego.\n\nZdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi teraz i w godzinę śmierci naszej. Amen.",
+          "seconds": 35
+        },
+        {
+          "type": "prayer",
+          "title": "Wcielenie",
+          "text": "V. A Słowo ciałem się stało.\nR. I zamieszkało między nami.\n\nZdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi teraz i w godzinę śmierci naszej. Amen.",
+          "seconds": 35
+        },
+        {
+          "type": "prayer",
+          "title": "Módlmy się",
+          "text": "V. Módl się za nami, święta Boża Rodzicielko.\nR. Abyśmy się stali godnymi obietnic Chrystusowych.\n\nMódlmy się: Łaskę Twoją, prosimy Cię, Panie, racz wlać w serca nasze, abyśmy, którzy za zwiastowaniem anielskim wcielenie Chrystusa, Syna Twego, poznali, przez mękę Jego i krzyż do chwały zmartwychwstania byli doprowadzeni. Przez Chrystusa, Pana naszego. Amen.",
+          "seconds": 45
+        },
+        {
+          "type": "silence",
+          "title": "Chwila ciszy",
+          "text": "Powierz Bogu drugą połowę dnia: ludzi, których spotkasz, i sprawy, które cię czekają.",
+          "seconds": 45
+        },
+        {
+          "type": "prayer",
+          "title": "Chwała Ojcu",
+          "text": "Chwała Ojcu i Synowi, i Duchowi Świętemu. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.",
+          "seconds": 15
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "rachunek-wieczorny",
+      "category": "rachunek",
+      "title": "Wieczorny rachunek sumienia",
+      "subtitle": "Spokojne spojrzenie na miniony dzień",
+      "durationMin": 9,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / modlitwa tradycyjna / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Wieczorny rachunek sumienia to nie surowy sąd, lecz spotkanie z Bogiem, który patrzy na nas z miłością. Przejdziemy przez dzień w pięciu prostych krokach.",
+          "seconds": 40
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Usiądź wygodnie. Oddychaj powoli. Pozwól, by gwar dnia stopniowo ucichł.",
+          "seconds": 45
+        },
+        {
+          "type": "scripture",
+          "title": "Prośba o światło",
+          "ref": "Ps 139,23-24 (parafraza)",
+          "text": "Przeniknij mnie, Boże, poznaj moje serce; wypróbuj mnie i zobacz, co myślę. Zobacz, czy nie idę złą drogą, i poprowadź mnie drogą wieczną.",
+          "seconds": 40
+        },
+        {
+          "type": "text",
+          "title": "1. Wdzięczność",
+          "text": "Za co możesz dziś podziękować? Przypomnij sobie choćby trzy dobre chwile – rozmowę, posiłek, uśmiech, odrobinę odpoczynku.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Dziękuję",
+          "text": "Powiedz Bogu w sercu: dziękuję.",
+          "seconds": 45
+        },
+        {
+          "type": "text",
+          "title": "2. Przegląd dnia",
+          "text": "Przejdź myślą przez dzień od rana do teraz, jak przez film. Gdzie był pokój i bliskość Boga? Gdzie pojawił się niepokój, złość lub obojętność?",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Patrz z Bogiem",
+          "text": "Nie analizuj zbyt mocno. Po prostu patrz razem z Nim.",
+          "seconds": 90
+        },
+        {
+          "type": "text",
+          "title": "3. Moje słabości",
+          "text": "Czy moje słowa lub milczenie kogoś dziś zraniły? Czy coś ważnego zostało przeze mnie zaniedbane? Czy w moim dniu było miejsce dla Boga?",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Przed Bogiem",
+          "text": "Nazwij przed Bogiem to, co było złe, bez lęku i bez usprawiedliwiania się.",
+          "seconds": 60
+        },
+        {
+          "type": "prayer",
+          "title": "4. Akt żalu",
+          "text": "Ach, żałuję za me złości jedynie dla Twej miłości. Bądź miłościw mnie grzesznemu, dla Ciebie odpuszczam bliźniemu.",
+          "seconds": 20
+        },
+        {
+          "type": "text",
+          "title": "5. Jutro",
+          "text": "O jaką łaskę chcesz prosić na jutro? Wybierz jedno małe, konkretne postanowienie.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Postanowienie",
+          "text": "Powierz jutrzejszy dzień Bogu.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Na zakończenie",
+          "text": "Ojcze nasz, któryś jest w niebie, święć się imię Twoje, przyjdź królestwo Twoje, bądź wola Twoja jako w niebie, tak i na ziemi. Chleba naszego powszedniego daj nam dzisiaj i odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom. I nie wódź nas na pokuszenie, ale nas zbaw ode złego. Amen.",
+          "seconds": 30
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "rachunek-przed-spowiedzia",
+      "category": "rachunek",
+      "title": "Rachunek sumienia przed spowiedzią",
+      "subtitle": "Przygotowanie do sakramentu pokuty",
+      "durationMin": 12,
+      "premium": true,
+      "source": "Parafraza Pisma Świętego / modlitwa tradycyjna / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Ta sesja pomoże ci spokojnie przygotować się do spowiedzi. Pytania opierają się na przykazaniach Bożych, przykazaniach kościelnych i przykazaniu miłości. Nie musisz odpowiadać na wszystkie – zatrzymaj się tam, gdzie poruszy cię sumienie.",
+          "seconds": 45
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Kilka spokojnych oddechów. Przypomnij sobie, że idziesz na spotkanie z Ojcem, który czeka na ciebie.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa do Ducha Świętego",
+          "text": "Duchu Święty, oświeć mój umysł i pomóż mi dostrzec moje grzechy. Porusz moje serce do szczerego żalu i daj mi siłę, by je wyznać i poprawić swoje życie. Amen.",
+          "seconds": 30
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo nadziei",
+          "ref": "1 J 1,9 (parafraza)",
+          "text": "Gdy wyznajemy Bogu nasze grzechy, On – wierny i sprawiedliwy – przebacza nam je i obmywa nas ze wszelkiego zła.",
+          "seconds": 30
+        },
+        {
+          "type": "text",
+          "title": "Bóg w moim życiu",
+          "text": "Czy modlę się regularnie? Czy Bóg jest dla mnie ważniejszy niż inne sprawy? Czy z szacunkiem wymawiam Jego imię? Czy uczestniczę we Mszy Świętej w niedziele i święta nakazane? Czy zachowuję posty nakazane przez Kościół i przystępuję do Komunii Świętej przynajmniej raz w roku, w okresie wielkanocnym?",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Zastanów się",
+          "text": "Pozwól, by odpowiedzi przyszły same.",
+          "seconds": 75
+        },
+        {
+          "type": "text",
+          "title": "Moi bliscy",
+          "text": "Jak traktuję rodziców, męża lub żonę, dzieci, rodzeństwo? Czy okazuję cierpliwość i wierność? Czy umiem przebaczać? Czy nie żywię gniewu ani urazy? Czy nie krzywdzę innych i czy szanuję życie oraz zdrowie – cudze i własne?",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Zastanów się",
+          "text": "Pomyśl o konkretnych osobach i sytuacjach.",
+          "seconds": 75
+        },
+        {
+          "type": "text",
+          "title": "Prawda i uczciwość",
+          "text": "Czy mówię prawdę? Czy nie obmawiam i nie oczerniam innych? Czy postępuję uczciwie w pracy i w sprawach pieniędzy? Czy nie zatrzymuję czegoś, co należy do innych?",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Zastanów się",
+          "text": "Bez pośpiechu.",
+          "seconds": 75
+        },
+        {
+          "type": "text",
+          "title": "Czystość i serce",
+          "text": "Czy szanuję swoje ciało i ciało innych? Czy strzegę czystości w myślach, słowach i czynach? Czy nie ulegam zazdrości, pysze, chciwości lub lenistwu?",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Zastanów się",
+          "text": "Bóg zna twoje serce i kocha cię.",
+          "seconds": 75
+        },
+        {
+          "type": "text",
+          "title": "Miłość bliźniego",
+          "text": "Czy dostrzegam potrzebujących wokół siebie? Czy pomagam, gdy mogę? Czy nie pomijam dobra, które mogę uczynić?",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Zastanów się",
+          "text": "Przypomnij sobie, co możesz dziś zmienić.",
+          "seconds": 60
+        },
+        {
+          "type": "prayer",
+          "title": "Akt żalu",
+          "text": "Ach, żałuję za me złości jedynie dla Twej miłości. Bądź miłościw mnie grzesznemu, dla Ciebie odpuszczam bliźniemu.",
+          "seconds": 20
+        },
+        {
+          "type": "text",
+          "title": "Postanowienie poprawy",
+          "text": "Wybierz jedno konkretne postanowienie, od którego zaczniesz. Pamiętaj o pięciu warunkach dobrej spowiedzi: rachunek sumienia, żal za grzechy, mocne postanowienie poprawy, szczera spowiedź, zadośćuczynienie Panu Bogu i bliźniemu.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Na zakończenie",
+          "text": "Jezu, ufam Tobie. Amen.",
+          "seconds": 10
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "lectio-dobry-pasterz",
+      "category": "lectio",
+      "title": "Dobry Pasterz",
+      "subtitle": "Lectio divina – Ewangelia wg św. Jana 10",
+      "durationMin": 11,
+      "premium": false,
+      "source": "Parafrazy Pisma Świętego (tekst własny) / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Lectio divina to modlitewne czytanie Pisma Świętego: czytanie, rozważanie, modlitwa i kontemplacja. Dziś wsłuchamy się w słowa Jezusa o Dobrym Pasterzu.",
+          "seconds": 40
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Oddychaj spokojnie. Poproś Ducha Świętego, by otworzył twoje serce na słowo.",
+          "seconds": 45
+        },
+        {
+          "type": "scripture",
+          "title": "Lectio – czytanie",
+          "ref": "J 10,11.14 (parafraza)",
+          "text": "Jezus mówi: Ja jestem dobrym pasterzem. Dobry pasterz gotów jest oddać życie za swoje owce. Znam moje owce, a one znają mnie.",
+          "seconds": 60
+        },
+        {
+          "type": "scripture",
+          "title": "Czytaj ponownie",
+          "ref": "J 10,27-28 (parafraza)",
+          "text": "„Moje owce rozpoznają mój głos. Znam każdą z nich, a one podążają za mną. Obdarzam je życiem, które nie ma końca: nigdy nie przepadną i nikt mi ich nie odbierze.”",
+          "seconds": 60
+        },
+        {
+          "type": "text",
+          "title": "Meditatio – rozważanie",
+          "text": "Które słowo lub zdanie zatrzymało cię najbardziej? Powtarzaj je powoli w sercu. Jezus mówi: znam owce moje. Zna twoje imię, twoją historię, twoje zmęczenie. Jak brzmi Jego głos w twoim życiu?",
+          "seconds": 60
+        },
+        {
+          "type": "silence",
+          "title": "Rozważaj",
+          "text": "Powtarzaj w ciszy wybrane słowo.",
+          "seconds": 120
+        },
+        {
+          "type": "text",
+          "title": "Oratio – modlitwa",
+          "text": "Odpowiedz Jezusowi własnymi słowami. Może to być podziękowanie, prośba albo zwykłe: „Prowadź mnie”.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Twoja modlitwa",
+          "text": "Mów do Niego w sercu.",
+          "seconds": 90
+        },
+        {
+          "type": "silence",
+          "title": "Contemplatio – kontemplacja",
+          "text": "Teraz już nic nie mów. Po prostu trwaj w obecności Dobrego Pasterza, jak owca bezpieczna przy Nim.",
+          "seconds": 120
+        },
+        {
+          "type": "prayer",
+          "title": "Na zakończenie",
+          "text": "Panie Jezu, Dobry Pasterzu, naucz mnie rozpoznawać Twój głos i iść za Tobą każdego dnia. Amen.",
+          "seconds": 20
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "lectio-syn-marnotrawny",
+      "category": "lectio",
+      "title": "Miłosierny Ojciec",
+      "subtitle": "Lectio divina – przypowieść o synu marnotrawnym (Łk 15)",
+      "durationMin": 11,
+      "premium": true,
+      "source": "Parafrazy Pisma Świętego (tekst własny) / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Przypowieść o synu marnotrawnym to jedna z najpiękniejszych opowieści o Bożym miłosierdziu. Przeczytamy ją powoli, zatrzymując się przy najważniejszych słowach.",
+          "seconds": 40
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Weź kilka spokojnych oddechów. Poproś Ducha Świętego o otwarte serce.",
+          "seconds": 45
+        },
+        {
+          "type": "scripture",
+          "title": "Lectio – odejście",
+          "ref": "Łk 15,11-17 (parafraza)",
+          "text": "Pewien człowiek miał dwóch synów. Młodszy zażądał swojej części majątku, wyjechał w daleki kraj i roztrwonił wszystko. Gdy nastał głód, zaczęło mu brakować wszystkiego i musiał paść świnie. Wtedy oprzytomniał i pomyślał: W domu mojego ojca nawet najemnicy mają chleba w bród, a ja tu umieram z głodu.",
+          "seconds": 60
+        },
+        {
+          "type": "scripture",
+          "title": "Lectio – powrót",
+          "ref": "Łk 15,18-20 (parafraza)",
+          "text": "Syn postanowił: Wrócę do mojego ojca i powiem mu: Ojcze, zgrzeszyłem przeciw niebu i przeciw tobie. […] Wyruszył więc w drogę do domu. Ojciec zobaczył go już z daleka, ogarnęło go współczucie, pobiegł do syna, objął go i ucałował.",
+          "seconds": 60
+        },
+        {
+          "type": "scripture",
+          "title": "Lectio – radość ojca",
+          "ref": "Łk 15,24 (parafraza)",
+          "text": "„Mój syn był dla mnie jakby martwy – a znów żyje. Był stracony – a teraz go odzyskałem.”",
+          "seconds": 30
+        },
+        {
+          "type": "text",
+          "title": "Meditatio – rozważanie",
+          "text": "Ojciec od dawna wypatrywał syna. Zanim ten zdążył cokolwiek powiedzieć, ojciec już biegł, obejmował go i całował. W kim z tej opowieści odnajdujesz siebie: w młodszym synu, w starszym bracie, czy może w ojcu? Z jakiego „dalekiego kraju” Bóg zaprasza cię dziś do domu?",
+          "seconds": 60
+        },
+        {
+          "type": "silence",
+          "title": "Rozważaj",
+          "text": "Pozostań przy obrazie ojca, który wybiega naprzeciw.",
+          "seconds": 120
+        },
+        {
+          "type": "text",
+          "title": "Oratio – modlitwa",
+          "text": "Powiedz Bogu własnymi słowami, co czujesz. Możesz powtórzyć: „Ojcze, wracam do Ciebie”.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Twoja modlitwa",
+          "text": "Mów do Niego w sercu.",
+          "seconds": 90
+        },
+        {
+          "type": "silence",
+          "title": "Contemplatio – kontemplacja",
+          "text": "Pozwól się objąć Ojcu. Nie musisz nic mówić ani niczego udowadniać.",
+          "seconds": 120
+        },
+        {
+          "type": "prayer",
+          "title": "Na zakończenie",
+          "text": "Ojcze miłosierny, dziękuję, że zawsze na mnie czekasz. Daj mi serce, które umie wracać i przebaczać. Amen.",
+          "seconds": 20
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "lectio-burza-na-jeziorze",
+      "category": "lectio",
+      "title": "Burza na jeziorze",
+      "subtitle": "Lectio divina – Ewangelia wg św. Marka 4",
+      "durationMin": 7,
+      "premium": true,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Uczniowie płyną z Jezusem przez jezioro, gdy nagle zrywa się burza. To opowieść dla każdego, kto przeżywa trudny czas.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Oddychaj spokojnie. Pozwól, by fale myśli powoli się uspokoiły.",
+          "seconds": 45
+        },
+        {
+          "type": "scripture",
+          "title": "Lectio – czytanie",
+          "ref": "Mk 4,35-41 (parafraza)",
+          "text": "Pod wieczór Jezus zaproponował uczniom, by przeprawili się na drugi brzeg jeziora. W drodze zerwał się gwałtowny wicher, a fale zaczęły zalewać łódź. Jezus tymczasem spał na rufie, z głową na poduszce. Uczniowie zbudzili Go z wyrzutem: Nauczycielu, nie dbasz o to, że toniemy? Jezus wstał, skarcił wicher i rzekł do fal: Ucisz się, przestań! Wiatr ucichł i zapanował wielki spokój. Wtedy zapytał uczniów: Dlaczego tak się lękacie? Czy wciąż brak wam wiary?",
+          "seconds": 75
+        },
+        {
+          "type": "text",
+          "title": "Meditatio – rozważanie",
+          "text": "Jezus jest w łodzi, nawet gdy wydaje się, że śpi. Jaka burza jest dziś w twoim życiu? Jak brzmi twoje wołanie do Niego?",
+          "seconds": 45
+        },
+        {
+          "type": "silence",
+          "title": "Rozważaj",
+          "text": "Wyobraź sobie, że jesteś w tej łodzi.",
+          "seconds": 90
+        },
+        {
+          "type": "text",
+          "title": "Oratio – modlitwa",
+          "text": "Powiedz Jezusowi o swoich lękach. Możesz powtarzać: „Panie, jesteś ze mną w łodzi”.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Contemplatio – wielka cisza",
+          "text": "Usłysz, jak Jezus mówi: Ucisz się. Trwaj w tej ciszy.",
+          "seconds": 100
+        },
+        {
+          "type": "prayer",
+          "title": "Na zakończenie",
+          "text": "Panie Jezu, Ty jesteś ze mną w każdej burzy. Przymnóż mi wiary. Amen.",
+          "seconds": 15
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "psalm-23",
+      "category": "psalmy",
+      "title": "Psalm 23",
+      "subtitle": "Pan jest pasterzem moim",
+      "durationMin": 7,
+      "premium": false,
+      "source": "Parafrazy Pisma Świętego (tekst własny) / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Psalm 23 to jedna z najbardziej znanych modlitw Biblii. Mówi o Bogu, który prowadzi, karmi i chroni. Przeczytamy go powoli, wers po wersie.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Weź kilka spokojnych oddechów.",
+          "seconds": 40
+        },
+        {
+          "type": "scripture",
+          "title": "Pasterz",
+          "ref": "Ps 23,1-3 (parafraza)",
+          "text": "Pan jest moim pasterzem – niczego mi nie zabraknie. Daje mi odpocząć na zielonej łące i prowadzi nad spokojne wody. Wzmacnia moją duszę i wiedzie mnie prostymi ścieżkami ze względu na swoje imię.",
+          "seconds": 50
+        },
+        {
+          "type": "silence",
+          "title": "Zielone pastwiska",
+          "text": "Wyobraź sobie spokojne miejsce, do którego prowadzi cię Bóg. Odpocznij tam.",
+          "seconds": 75
+        },
+        {
+          "type": "scripture",
+          "title": "Ciemna dolina",
+          "ref": "Ps 23,4 (parafraza)",
+          "text": "„Nawet gdy idę przez najciemniejszy wąwóz, gdzie czai się śmierć, nie lękam się żadnego zła, bo Ty idziesz obok mnie. Twój pasterski kij i laska dodają mi otuchy.”",
+          "seconds": 35
+        },
+        {
+          "type": "silence",
+          "title": "Ty jesteś ze mną",
+          "text": "Powtarzaj w sercu: Ty jesteś ze mną.",
+          "seconds": 75
+        },
+        {
+          "type": "scripture",
+          "title": "Stół i kielich",
+          "ref": "Ps 23,5-6 (parafraza)",
+          "text": "Zastawiasz dla mnie ucztę, choć patrzą na to moi przeciwnicy; namaszczasz moją głowę wonnym olejem i napełniasz mój kielich aż po brzegi. Twoja dobroć i wierna miłość towarzyszą mi przez wszystkie dni, a w domu Pana będę mieszkać na zawsze.",
+          "seconds": 50
+        },
+        {
+          "type": "silence",
+          "title": "Wdzięczność",
+          "text": "Podziękuj za dobro, które cię dziś spotkało.",
+          "seconds": 60
+        },
+        {
+          "type": "prayer",
+          "title": "Na zakończenie",
+          "text": "Panie, mój Pasterzu, prowadź mnie dzisiaj i zawsze. Chwała Ojcu i Synowi, i Duchowi Świętemu. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "psalm-91",
+      "category": "psalmy",
+      "title": "Psalm 91",
+      "subtitle": "W cieniu Wszechmocnego",
+      "durationMin": 7,
+      "premium": true,
+      "source": "Parafraza Pisma Świętego / modlitwa tradycyjna / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Psalm 91 to modlitwa zaufania. Kościół modli się nim w niedzielnej Komplecie, ostatniej modlitwie dnia. Mówi o Bogu, który osłania jak ptak swoje pisklęta.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Oddychaj powoli. Pozwól ramionom opaść.",
+          "seconds": 45
+        },
+        {
+          "type": "scripture",
+          "title": "Schronienie",
+          "ref": "Ps 91,1-2 (parafraza)",
+          "text": "Kto mieszka w ukryciu u Najwyższego, odpoczywa w cieniu Wszechmocnego. Mówię do Pana: Ty jesteś moją nadzieją i moją twierdzą, mój Boże, Tobie ufam.",
+          "seconds": 40
+        },
+        {
+          "type": "silence",
+          "title": "Moja twierdza",
+          "text": "Powtarzaj w sercu: Boże, Tobie ufam.",
+          "seconds": 75
+        },
+        {
+          "type": "scripture",
+          "title": "Pod skrzydłami",
+          "ref": "Ps 91,4-6 (parafraza)",
+          "text": "Okryje cię, jak ptak okrywa swoje pisklęta, i pod Jego skrzydłami znajdziesz schronienie; Jego wierność będzie twoją tarczą. Nie musisz bać się nocnych strachów ani strzały, która leci za dnia.",
+          "seconds": 40
+        },
+        {
+          "type": "silence",
+          "title": "Pod Jego skrzydłami",
+          "text": "Wyobraź sobie, że Bóg osłania cię jak ptak swoje pisklęta.",
+          "seconds": 75
+        },
+        {
+          "type": "scripture",
+          "title": "Aniołowie",
+          "ref": "Ps 91,11 (parafraza)",
+          "text": "Bóg poleci swoim aniołom, by czuwali nad tobą, dokądkolwiek pójdziesz.",
+          "seconds": 30
+        },
+        {
+          "type": "prayer",
+          "title": "Aniele Boży",
+          "text": "Aniele Boży, stróżu mój, Ty zawsze przy mnie stój. Rano, wieczór, we dnie, w nocy bądź mi zawsze ku pomocy. Strzeż duszy, ciała mego i zaprowadź mnie do żywota wiecznego. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Chwila spokoju",
+          "text": "Trwaj w ciszy pod opieką Boga.",
+          "seconds": 60
+        },
+        {
+          "type": "prayer",
+          "title": "Na zakończenie",
+          "text": "Chwała Ojcu i Synowi, i Duchowi Świętemu. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.",
+          "seconds": 15
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "psalm-139",
+      "category": "psalmy",
+      "title": "Psalm 139",
+      "subtitle": "Panie, przenikasz i znasz mnie",
+      "durationMin": 9,
+      "premium": true,
+      "source": "Parafrazy Pisma Świętego (tekst własny) / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Psalm 139 opowiada o Bogu, który zna nas lepiej niż my sami siebie – i kocha nas takimi, jakimi jesteśmy.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Kilka spokojnych oddechów. Pozwól sobie po prostu być.",
+          "seconds": 45
+        },
+        {
+          "type": "scripture",
+          "title": "Bóg mnie zna",
+          "ref": "Ps 139,1-2 (parafraza)",
+          "text": "„Panie, Twoje spojrzenie sięga w głąb mnie i nic nie umyka Twojej uwadze. Każdy mój spoczynek i każde powstanie są przed Tobą odkryte; rozumiesz moje myśli, zanim jeszcze się we mnie zrodzą.”",
+          "seconds": 35
+        },
+        {
+          "type": "silence",
+          "title": "Bóg mnie widzi",
+          "text": "Pomyśl: Bóg zna każdą moją myśl – i nie odwraca się ode mnie.",
+          "seconds": 75
+        },
+        {
+          "type": "scripture",
+          "title": "Wszędzie jesteś",
+          "ref": "Ps 139,7-10 (parafraza)",
+          "text": "Gdzie się skryję przed Twoim Duchem? Jeśli wstąpię do nieba – Ty tam jesteś; jeśli zejdę w głębiny – i tam jesteś. Jeśli wezmę skrzydła zorzy i zamieszkam na krańcu morza, i tam poprowadzi mnie Twoja ręka.",
+          "seconds": 45
+        },
+        {
+          "type": "silence",
+          "title": "Twoja ręka",
+          "text": "Pomyśl, że Jego ręka prowadzi cię nawet tam, gdzie czujesz się zagubiony lub zagubiona.",
+          "seconds": 75
+        },
+        {
+          "type": "scripture",
+          "title": "W łonie matki",
+          "ref": "Ps 139,13-14 (parafraza)",
+          "text": "To Ty ukształtowałeś całe moje wnętrze, Ty tkałeś mnie jeszcze w łonie matki. Wysławiam Cię, bo cudownie mnie uczyniłeś.",
+          "seconds": 35
+        },
+        {
+          "type": "silence",
+          "title": "Dziękczynienie",
+          "text": "Podziękuj Bogu za dar swojego życia.",
+          "seconds": 75
+        },
+        {
+          "type": "scripture",
+          "title": "Prowadź mnie",
+          "ref": "Ps 139,23-24 (parafraza)",
+          "text": "Przeniknij mnie, Boże, poznaj moje serce; wypróbuj mnie i zobacz, co myślę. Zobacz, czy nie idę złą drogą, i poprowadź mnie drogą wieczną.",
+          "seconds": 35
+        },
+        {
+          "type": "silence",
+          "title": "Ostatnia cisza",
+          "text": "Oddaj Bogu swoje serce.",
+          "seconds": 60
+        },
+        {
+          "type": "prayer",
+          "title": "Na zakończenie",
+          "text": "Panie, dziękuję, że mnie znasz i kochasz. Prowadź mnie drogą wieczną. Amen.",
+          "seconds": 15
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "psalm-121",
+      "category": "psalmy",
+      "title": "Psalm 121",
+      "subtitle": "Pomoc moja jest od Pana",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafrazy Pisma Świętego (tekst własny) / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Psalm 121 śpiewali pielgrzymi idący do Jerozolimy. To krótka modlitwa na drogę – także na drogę dnia codziennego.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Weź kilka spokojnych oddechów.",
+          "seconds": 30
+        },
+        {
+          "type": "scripture",
+          "title": "Pomoc",
+          "ref": "Ps 121,1-2 (parafraza)",
+          "text": "„Patrzę w stronę gór i pytam: kto mnie wesprze? Moje wsparcie płynie od Pana, Stwórcy nieba i ziemi.”",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Podnieś oczy",
+          "text": "Powtarzaj w sercu: Pomoc moja jest od Pana.",
+          "seconds": 60
+        },
+        {
+          "type": "scripture",
+          "title": "Stróż",
+          "ref": "Ps 121,3-8 (parafraza)",
+          "text": "On nie da ci upaść; Ten, który cię strzeże, nie zasypia. Pan czuwa nad tobą i osłania cię jak cień w upalny dzień. Chroni cię od każdego zła i strzeże twojego życia. Pan będzie z tobą, gdy wychodzisz i gdy wracasz – dziś i zawsze.",
+          "seconds": 45
+        },
+        {
+          "type": "silence",
+          "title": "Pod Jego strażą",
+          "text": "Powierz Bogu drogi, które masz dziś przed sobą.",
+          "seconds": 75
+        },
+        {
+          "type": "prayer",
+          "title": "Na zakończenie",
+          "text": "Chwała Ojcu i Synowi, i Duchowi Świętemu. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.",
+          "seconds": 15
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "wieczor-zasypianie",
+      "category": "wieczor",
+      "title": "Modlitwa przed snem",
+      "subtitle": "Spokojne zakończenie dnia w Bożych rękach",
+      "durationMin": 9,
+      "premium": false,
+      "source": "Parafrazy Pisma Świętego (tekst własny) / modlitwa tradycyjna / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Ta krótka modlitwa pomaga się wyciszyć i zakończyć dzień w Bożej obecności. Możesz ją odmawiać już w łóżku, przy przygaszonym świetle.",
+          "seconds": 30
+        },
+        {
+          "type": "text",
+          "title": "Oddech",
+          "text": "Połóż się wygodnie. Zrób powolny wdech nosem, licząc do czterech, i jeszcze wolniejszy wydech. Powtórz to kilka razy, bez wysiłku.",
+          "seconds": 45
+        },
+        {
+          "type": "silence",
+          "title": "Rozluźnienie",
+          "text": "Pozwól, by twoje ciało stało się ciężkie i spokojne. Czoło, ramiona, dłonie, nogi – wszystko odpoczywa.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na noc",
+          "ref": "Ps 4,9 (parafraza)",
+          "text": "„Kładę się i zasypiam w pokoju, bo Ty, Panie, strzeżesz mojego odpoczynku i przy Tobie nic mi nie grozi.”",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "W pokoju",
+          "text": "Powtarzaj powoli: W pokoju się położę i zasnę.",
+          "seconds": 90
+        },
+        {
+          "type": "text",
+          "title": "Oddaj dzień",
+          "text": "Wszystko, co się dziś wydarzyło – dobre i trudne – złóż w ręce Boga. Nie musisz już niczego rozwiązywać tej nocy.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Oddaję",
+          "text": "Z każdym wydechem oddawaj Bogu jedną sprawę.",
+          "seconds": 90
+        },
+        {
+          "type": "prayer",
+          "title": "Aniele Boży",
+          "text": "Aniele Boży, stróżu mój, Ty zawsze przy mnie stój. Rano, wieczór, we dnie, w nocy bądź mi zawsze ku pomocy. Strzeż duszy, ciała mego i zaprowadź mnie do żywota wiecznego. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "prayer",
+          "title": "Na dobranoc",
+          "text": "W Twoje ręce, Panie, powierzam ducha mego. Czuwaj nade mną i nad moimi bliskimi tej nocy. Amen.",
+          "seconds": 20
+        },
+        {
+          "type": "silence",
+          "title": "Cisza nocy",
+          "text": "Odpoczywaj.",
+          "seconds": 60
+        },
+        {
+          "type": "bell",
+          "seconds": 3
+        }
+      ]
+    },
+    {
+      "id": "wieczor-dziekczynienie",
+      "category": "wieczor",
+      "title": "Wieczorne dziękczynienie",
+      "subtitle": "Podziękuj Bogu za miniony dzień",
+      "durationMin": 7,
+      "premium": true,
+      "source": "Parafrazy Pisma Świętego (tekst własny) / modlitwa tradycyjna / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Wdzięczność otwiera serce na Boga. Na koniec dnia popatrzymy na dobro, które otrzymaliśmy – także to małe i niepozorne.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Weź kilka spokojnych oddechów.",
+          "seconds": 45
+        },
+        {
+          "type": "scripture",
+          "title": "Błogosław, duszo moja",
+          "ref": "Ps 103,1-2 (parafraza)",
+          "text": "„Wysławiaj Pana, moja duszo; niech wszystko, czym jestem, wielbi Jego święte imię. Wysławiaj Pana, moja duszo, i pamiętaj o każdym dobru, które od Niego otrzymałaś.”",
+          "seconds": 35
+        },
+        {
+          "type": "text",
+          "title": "Ludzie",
+          "text": "Pomyśl o ludziach, z którymi zetknął cię dzisiejszy dzień. Za kogo chcesz podziękować?",
+          "seconds": 20
+        },
+        {
+          "type": "silence",
+          "title": "Dziękuję za ludzi",
+          "text": "Wymień ich w sercu po imieniu.",
+          "seconds": 75
+        },
+        {
+          "type": "text",
+          "title": "Dary",
+          "text": "Pomyśl o zwykłych darach: o jedzeniu, cieple domu, zdrowiu, pracy, chwili odpoczynku.",
+          "seconds": 20
+        },
+        {
+          "type": "silence",
+          "title": "Dziękuję za dary",
+          "text": "Za każdą rzecz powiedz w sercu: dziękuję.",
+          "seconds": 75
+        },
+        {
+          "type": "text",
+          "title": "Trudności",
+          "text": "Czy w trudnych chwilach dnia było coś, co mimo wszystko przyniosło dobro? Czasem wdzięczność rodzi się dopiero po czasie.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Dziękuję mimo wszystko",
+          "text": "Oddaj Bogu to, co było trudne.",
+          "seconds": 75
+        },
+        {
+          "type": "scripture",
+          "title": "Na wieki",
+          "ref": "Ps 136,1 (parafraza)",
+          "text": "Wysławiajcie Pana, bo jest dobry, bo Jego miłosierdzie trwa na wieki.",
+          "seconds": 20
+        },
+        {
+          "type": "prayer",
+          "title": "Na zakończenie",
+          "text": "Chwała Ojcu i Synowi, i Duchowi Świętemu. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.",
+          "seconds": 15
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "cisza-modlitwa-jezusowa",
+      "category": "cisza",
+      "title": "Modlitwa Jezusowa",
+      "subtitle": "Modlitwa serca w rytmie oddechu",
+      "durationMin": 10,
+      "premium": false,
+      "source": "Parafrazy Pisma Świętego (tekst własny) / modlitwa tradycyjna / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Modlitwa Jezusowa to prosta i bardzo stara modlitwa, zrodzona na chrześcijańskim Wschodzie i bliska dziś także wielu katolikom. Powtarza się ją powoli, często w rytmie oddechu, aby imię Jezusa zamieszkało w sercu.",
+          "seconds": 40
+        },
+        {
+          "type": "scripture",
+          "title": "Jej korzenie",
+          "ref": "Łk 18,13 (parafraza)",
+          "text": "Celnik w świątyni modlił się słowami: „Boże, ulituj się nade mną – jestem grzesznikiem.”",
+          "seconds": 25
+        },
+        {
+          "type": "text",
+          "title": "Postawa",
+          "text": "Usiądź prosto, ale bez napięcia. Zamknij oczy albo patrz łagodnie przed siebie. Oddychaj naturalnie.",
+          "seconds": 30
+        },
+        {
+          "type": "prayer",
+          "title": "Słowa modlitwy",
+          "text": "Panie Jezu Chryste, Synu Boży, zmiłuj się nade mną grzesznikiem.\n\nNa wdechu: „Panie Jezu Chryste, Synu Boży”.\nNa wydechu: „zmiłuj się nade mną grzesznikiem”.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Powtarzaj modlitwę",
+          "text": "Powtarzaj powoli, w rytmie oddechu. Gdy myśli odpłyną, spokojnie wróć do słów modlitwy.",
+          "seconds": 180
+        },
+        {
+          "type": "text",
+          "title": "Łagodny powrót",
+          "text": "Rozproszenia są naturalne. Nie oceniaj siebie. Każdy powrót do imienia Jezusa jest już modlitwą.",
+          "seconds": 20
+        },
+        {
+          "type": "silence",
+          "title": "Trwaj w modlitwie",
+          "text": "Panie Jezu Chryste, Synu Boży, zmiłuj się nade mną grzesznikiem.",
+          "seconds": 180
+        },
+        {
+          "type": "silence",
+          "title": "Sama cisza",
+          "text": "Teraz pozwól słowom ucichnąć. Trwaj w obecności Jezusa.",
+          "seconds": 60
+        },
+        {
+          "type": "prayer",
+          "title": "Na zakończenie",
+          "text": "Chwała Ojcu i Synowi, i Duchowi Świętemu. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.",
+          "seconds": 15
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "cisza-obecnosc-boza",
+      "category": "cisza",
+      "title": "W obecności Boga",
+      "subtitle": "Modlitwa ciszy i prostego trwania",
+      "durationMin": 10,
+      "premium": true,
+      "source": "Parafrazy Pisma Świętego (tekst własny) / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Bóg jest obecny zawsze i wszędzie, ale często tego nie zauważamy. Ta sesja to zaproszenie, by po prostu z Nim być – bez wielu słów.",
+          "seconds": 30
+        },
+        {
+          "type": "text",
+          "title": "Postawa",
+          "text": "Usiądź wygodnie. Poczuj ciężar ciała, kontakt stóp z podłogą. Oddychaj spokojnie.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Oddech",
+          "text": "Zwróć uwagę na oddech. Nie zmieniaj go, tylko obserwuj.",
+          "seconds": 60
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo",
+          "ref": "Ps 46,11 (parafraza)",
+          "text": "„Odłóżcie wszelki niepokój, wyciszcie się i poznajcie, że to Ja jestem Bogiem.”",
+          "seconds": 20
+        },
+        {
+          "type": "silence",
+          "title": "Uspokój się",
+          "text": "Pozwól, by to zdanie powoli w tobie wybrzmiało.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Cichy powiew",
+          "ref": "1 Krl 19,11-12 (parafraza)",
+          "text": "Eliasz czekał na Boga na górze. Przyszedł gwałtowny wicher, potem trzęsienie ziemi, potem ogień – lecz Pana w nich nie było. Potem przyszedł cichy, delikatny powiew.",
+          "seconds": 30
+        },
+        {
+          "type": "text",
+          "title": "Jedno słowo",
+          "text": "Wybierz jedno krótkie słowo, np. „Jezu”, „Abba” lub „Pokój”. Gdy myśli cię rozproszą, łagodnie wróć do tego słowa.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Trwanie",
+          "text": "Po prostu bądź przed Bogiem. On patrzy na ciebie z miłością.",
+          "seconds": 240
+        },
+        {
+          "type": "silence",
+          "title": "Wdzięczność",
+          "text": "Podziękuj za ten czas, nawet jeśli wydawał się pełen rozproszeń.",
+          "seconds": 45
+        },
+        {
+          "type": "prayer",
+          "title": "Na zakończenie",
+          "text": "Boże, dziękuję, że jesteś tutaj. Pozwól mi nieść Twoją obecność w ten dzień. Amen.",
+          "seconds": 15
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "poranne-oddanie-dnia",
+      "category": "cisza",
+      "title": "Poranne oddanie dnia",
+      "subtitle": "Rozpocznij dzień z Bogiem",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / modlitwa tradycyjna / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Zanim dzień nabierze tempa, zatrzymaj się na kilka minut. Oddaj Bogu wszystko, co cię dziś czeka.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Pierwsze oddechy",
+          "text": "Weź trzy głębokie oddechy. Poczuj, że ten dzień jest darem.",
+          "seconds": 40
+        },
+        {
+          "type": "scripture",
+          "title": "Nowe każdego ranka",
+          "ref": "Lm 3,22-23 (parafraza)",
+          "text": "Dobroć Pana nie ma końca, Jego miłosierdzie nigdy nie ustaje. Każdego ranka jest nowe – Panie, jak wielka jest Twoja wierność!",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Nowy dzień",
+          "text": "Przyjmij ten poranek jako nowy początek.",
+          "seconds": 60
+        },
+        {
+          "type": "text",
+          "title": "Plan dnia",
+          "text": "Przypomnij sobie, co cię dziś czeka: spotkania, obowiązki, rozmowy. Przy każdej sprawie powiedz w sercu: Panie, bądź ze mną.",
+          "seconds": 30
+        },
+        {
+          "type": "silence",
+          "title": "Powierz",
+          "text": "Powierz Bogu kolejne godziny dnia.",
+          "seconds": 60
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa oddania",
+          "text": "Panie Boże, oddaję Ci ten dzień: moje myśli, słowa, czyny i wszystkie trudności. Pomóż mi we wszystkim pełnić Twoją wolę i okazywać dobroć ludziom, których spotkam. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "prayer",
+          "title": "Ojcze nasz",
+          "text": "Ojcze nasz, któryś jest w niebie, święć się imię Twoje, przyjdź królestwo Twoje, bądź wola Twoja jako w niebie, tak i na ziemi. Chleba naszego powszedniego daj nam dzisiaj i odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom. I nie wódź nas na pokuszenie, ale nas zbaw ode złego. Amen.",
+          "seconds": 30
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-11-29",
+      "category": "adwent",
+      "date": "2026-11-29",
+      "title": "Adwent, dzień 1 — Czuwajcie",
+      "subtitle": "I Niedziela Adwentu",
+      "durationMin": 6,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Zaczyna się Adwent – cztery tygodnie oczekiwania na przyjście Pana. Przez najbliższe dni Appolonia będzie ci towarzyszyć codziennie przez kilka minut. Nie musisz robić wiele. Wystarczy, że przyjdziesz.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Usiądź wygodnie. Zrób kilka spokojnych oddechów. Uczyń znak krzyża i pozwól, by hałas dnia trochę ucichł.",
+          "seconds": 120
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Mk 13,33-37 (parafraza)",
+          "text": "Miejcie oczy otwarte i czuwajcie, bo nie wiecie, kiedy przyjdzie ta chwila. Jest jak z człowiekiem, który wyjechał w podróż: zostawił dom swoim sługom, każdemu dał jego zadanie, a odźwiernemu polecił czuwać. Bądźcie więc czujni, bo nie znacie chwili powrotu gospodarza – może wróci wieczorem, o północy, o pianiu kogutów albo rano. Niech nie zastanie was śpiących, gdy przyjdzie niespodziewanie. To, co mówię wam, odnosi się do wszystkich: czuwajcie!",
+          "seconds": 45
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Jezus nie mówi: bójcie się. Mówi: czuwajcie. Czuwać to znaczy żyć uważnie – nie przesypiać własnego życia. Każdy z nas dostał od Pana swój „dom” i swoje zadanie: rodzinę, pracę, ludzi obok. Adwent nie zaczyna się od wielkich postanowień, ale od przebudzenia. Bóg przychodzi także dziś – w rozmowie przy kolacji, w zmęczonym koledze z pracy, w chwili ciszy, którą sobie podarujesz.",
+          "seconds": 75
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Co najczęściej „usypia” twoje serce – pośpiech, telefon, zmartwienia? Wybierz jedną małą rzecz, którą w tym tygodniu ograniczysz, żeby zrobić więcej miejsca dla Boga. Jeśli masz w domu wieniec adwentowy, zapal dziś pierwszą świecę.",
+          "seconds": 45
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Panie Jezu, Ty przychodzisz, a ja tak często jestem myślami gdzie indziej. Obudź moje serce. Naucz mnie czuwać nie ze strachem, ale z miłością – jak ktoś, kto wygląda przez okno, bo czeka na bliską osobę. Prowadź mnie przez ten Adwent dzień po dniu. Amen.",
+          "seconds": 30
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-11-30",
+      "category": "adwent",
+      "date": "2026-11-30",
+      "title": "Adwent, dzień 2 — Pójdź za Mną",
+      "subtitle": "Święto św. Andrzeja Apostoła",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Dziś wspominamy świętego Andrzeja – rybaka znad Jeziora Galilejskiego, jednego z pierwszych, którzy poszli za Jezusem. To on przyprowadził do Niego swojego brata, Szymona Piotra.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Weź kilka spokojnych oddechów. Wyobraź sobie brzeg jeziora o świcie, ciszę i szum wody.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Mt 4,18-20 (parafraza)",
+          "text": "Idąc brzegiem Jeziora Galilejskiego, Jezus spotkał dwóch braci – Szymona, którego nazywano Piotrem, i Andrzeja. Właśnie łowili ryby, rzucając sieć do wody. Jezus zawołał ich: „Chodźcie ze Mną, a sprawię, że będziecie łowić ludzi”. Bez zwłoki porzucili sieci i ruszyli za Nim.",
+          "seconds": 30
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Andrzej nie zrobił niczego nadzwyczajnego. Usłyszał wezwanie przy zwykłej pracy, przy sieciach, i odpowiedział od razu. A potem zrobił coś bardzo prostego: powiedział bratu o Jezusie. Wieczór andrzejkowy kojarzy się z laniem wosku i zgadywaniem przyszłości. Ty możesz dziś powierzyć swoją przyszłość Temu, który ją naprawdę zna i trzyma w dłoniach.",
+          "seconds": 70
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Jakie „sieci” trzymasz dziś najmocniej – plany, przyzwyczajenia, obawy? Pomyśl też o jednej osobie, której możesz w tym Adwencie pomóc zbliżyć się do Boga – choćby przez dobre słowo albo modlitwę za nią.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Panie Jezu, wołasz mnie po imieniu tam, gdzie jestem – w domu, w pracy, w zwyczajnym dniu. Daj mi odwagę Andrzeja, żeby zostawić to, co mnie zatrzymuje, i iść za Tobą. Przez wstawiennictwo świętego Andrzeja błogosław moją przyszłość. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-01",
+      "category": "adwent",
+      "date": "2026-12-01",
+      "title": "Adwent, dzień 3 — Roraty",
+      "subtitle": "Światło w ciemności poranka",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "W polskich parafiach Adwent ma swój szczególny znak: roraty. To Msza Święta ku czci Maryi, odprawiana przed świtem lub wieczorem. Kościół jest ciemny, a światło dają lampiony, które przynoszą dzieci i dorośli. Dziś pomodlimy się w duchu rorat.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Jeśli możesz, zgaś górne światło i zapal jedną świecę. Patrz przez chwilę na płomień i oddychaj spokojnie.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Iz 9,1 (parafraza)",
+          "text": "Lud, który błąkał się w ciemnościach, zobaczył wielkie światło. Nad tymi, którzy mieszkali w krainie cienia, rozbłysła jasność.",
+          "seconds": 25
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Mały lampion nie rozjaśni całego kościoła. Ale kiedy zbierze się ich wiele, ciemność ustępuje. Tak jest z wiarą: twoje małe światło – modlitwa, cierpliwość, dobre słowo – ma znaczenie. Roraty uczą też, że Maryja jest jak jutrzenka: zapowiada, że wkrótce wzejdzie Słońce, Chrystus. Ciemność grudniowego poranka nie jest ostatnim słowem.",
+          "seconds": 70
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Gdzie w twoim życiu jest dziś najciemniej? Nazwij to przed Bogiem. A jeśli to możliwe, wybierz się w tym tygodniu na roraty – z lampionem albo bez, w pojedynkę albo z dziećmi.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Panie, Światłości świata, przychodzę do Ciebie z moim małym płomieniem. Rozjaśnij to, co we mnie ciemne i zalęknione. Maryjo, Jutrzenko poranna, prowadź mnie do Twojego Syna, który jest prawdziwym Światłem. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-02",
+      "category": "adwent",
+      "date": "2026-12-02",
+      "title": "Adwent, dzień 4 — Uczta na górze",
+      "subtitle": "Prorok Izajasz – nadzieja dla wszystkich",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Adwent to czas proroka Izajasza. Żył kilkaset lat przed Chrystusem, w trudnych czasach, a jednak mówił o nadziei tak, że jego słowa do dziś rozgrzewają serce.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Zrób kilka głębokich oddechów. Odłóż na bok to, co cię dziś przytłacza.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Iz 25,6-9 (parafraza)",
+          "text": "Na tej górze Pan Zastępów przygotuje dla wszystkich narodów ucztę: najlepsze potrawy i szlachetne wino. Zdejmie zasłonę, która okrywa wszystkie ludy, i na zawsze zniszczy śmierć. Pan Bóg otrze łzy z każdej twarzy. W owym dniu powiedzą: „To jest nasz Bóg! Zaufaliśmy Mu i przyszedł nas ocalić. Radujmy się z Jego zbawienia!”",
+          "seconds": 35
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Izajasz widzi przyszłość jako wspólny stół. Nikt nie jest wykluczony, nikt nie płacze samotnie. W Ewangelii Jezus karmi głodny tłum chlebem i rybami – zapowiedź tej uczty spełnia się na naszych oczach. Każda Eucharystia jest jej przedsmakiem. I każdy rodzinny stół, przy którym ktoś czuje się przyjęty, staje się małym znakiem królestwa Bożego.",
+          "seconds": 70
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Czyje łzy widzisz w swoim otoczeniu? Może ktoś potrzebuje zaproszenia na herbatę, telefonu albo po prostu wysłuchania. Zrób dziś jeden mały krok w jego stronę.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Boże wszelkiej pociechy, Ty obiecujesz otrzeć każdą łzę. Pamiętaj o tych, którzy dziś płaczą, są głodni lub samotni. Uczyń moje serce i mój dom miejscem, w którym inni mogą odetchnąć. Ufam Tobie, bo Ty jesteś moim Bogiem. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-03",
+      "category": "adwent",
+      "date": "2026-12-03",
+      "title": "Adwent, dzień 5 — Dom na skale",
+      "subtitle": "Fundament ważniejszy niż porządki",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Grudzień to czas sprzątania, planowania i list zakupów. Dziś Jezus zaprasza, żeby zajrzeć głębiej – do fundamentów naszego życia.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Usiądź stabilnie, z obiema stopami na podłodze. Poczuj, jak ziemia pewnie cię podtrzymuje. Oddychaj spokojnie.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Mt 7,24-27 (parafraza)",
+          "text": "Kto słucha tego, co mówię, i wprowadza to w życie, przypomina mądrego człowieka, który postawił swój dom na skale. Przyszła ulewa, rzeki wystąpiły z brzegów, wiatr uderzał w ściany – a dom wytrzymał, bo miał fundament na skale. A kto słucha, lecz nie wprowadza moich słów w życie, przypomina głupca, który postawił dom na piasku. Przyszła burza i dom się zawalił – zostały z niego tylko gruzy.",
+          "seconds": 40
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Przed świętami myjemy okna, pieczemy pierniki, szukamy prezentów. To dobre i potrzebne. Ale najpiękniej wysprzątany dom nie przetrwa burzy, jeśli stoi na piasku. Jezus nie mówi: wystarczy słuchać. Mówi: słuchaj i wypełniaj. Skałą jest Jego słowo przyjęte w codzienności – w tym, jak mówisz do bliskich, jak pracujesz, jak przebaczasz.",
+          "seconds": 70
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Na czym dziś naprawdę opiera się twoje życie? Wybierz jedno słowo Jezusa, które znasz od dawna, i spróbuj je dziś konkretnie wypełnić.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Panie Jezu, Ty jesteś skałą, na której mogę budować. Kiedy przychodzą burze, nie pozwól mi się zachwiać. Pomóż mi nie tylko słuchać Twojego słowa, ale żyć nim każdego dnia. Bądź fundamentem mojego domu i mojej rodziny. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-04",
+      "category": "adwent",
+      "date": "2026-12-04",
+      "title": "Adwent, dzień 6 — Ulituj się nad nami",
+      "subtitle": "Prośba niewidomych – i nasza",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Dziś wspomnienie świętej Barbary, patronki górników i wszystkich, którzy pracują w trudzie i niebezpieczeństwie. A Ewangelia opowiada o dwóch niewidomych, którzy uparcie wołali do Jezusa.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Zamknij na chwilę oczy. Wsłuchaj się w swój oddech. Pozwól, by ciemność pod powiekami stała się ciszą.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Mt 9,27-30 (parafraza)",
+          "text": "Za Jezusem szło dwóch niewidomych. Wołali głośno: „Ulituj się nad nami, Synu Dawida!” Kiedy wszedł do domu, podeszli do Niego. Jezus zapytał: „Czy wierzycie, że mam moc to zrobić?” „Wierzymy, Panie” – odpowiedzieli. Wtedy dotknął ich oczu i rzekł: „Niech się stanie tak, jak uwierzyliście”. I przejrzeli.",
+          "seconds": 30
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Niewidomi nie rezygnują. Idą za Jezusem, wołają, wchodzą za Nim do domu. A Jezus pyta ich o wiarę – nie dlatego, że czegoś potrzebuje, ale żeby mogli wypowiedzieć swoje zaufanie. Każdy z nas ma w sobie jakieś miejsce, którego nie widzi: własne słabości, dobro w drugim człowieku, Bożą obecność w trudnej sytuacji.",
+          "seconds": 65
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Czego nie potrafisz dziś dostrzec – w sobie, w bliskich, w swojej sytuacji? Powiedz Jezusowi szczerze: „Panie, chcę widzieć”. Pomódl się też za tych, którzy pracują pod ziemią i w niebezpiecznych warunkach.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Jezu, Synu Dawida, ulituj się nade mną. Wierzę, że możesz otworzyć moje oczy. Pokaż mi to, czego nie chcę lub nie umiem zobaczyć. Przez wstawiennictwo świętej Barbary chroń górników, ratowników i wszystkich, którzy pracują w trudzie. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-05",
+      "category": "adwent",
+      "date": "2026-12-05",
+      "title": "Adwent, dzień 7 — Za darmo otrzymaliście",
+      "subtitle": "Przed dniem świętego Mikołaja",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Jutro święty Mikołaj. W wielu domach ktoś po cichu chowa dziś prezenty pod poduszkę albo do buta. Zanim zajmiesz się paczkami, zatrzymaj się przy słowach Jezusa o darze.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Weź kilka spokojnych oddechów. Pomyśl o jednym darze od drugiego człowieka, który do dziś budzi w tobie wdzięczność.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Mt 9,36; 10,7-8 (parafraza)",
+          "text": "Widząc tłumy, Jezus wzruszył się nad nimi, bo byli zmęczeni i bezradni jak owce bez pasterza. Wysłał swoich uczniów i powiedział im: „Idźcie i głoście: przybliżyło się królestwo niebieskie. Leczcie chorych, przywracajcie życie umarłym, oczyszczajcie trędowatych, uwalniajcie od złych duchów. Za darmo otrzymaliście, za darmo dawajcie”.",
+          "seconds": 30
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Wszystko, co mamy najcenniejszego – życie, wiarę, miłość bliskich – otrzymaliśmy za darmo. Dlatego chrześcijański dar nie jest wymianą ani rachunkiem. Święty Mikołaj, biskup z Miry, pomagał potrzebującym po kryjomu, bez oczekiwania na wdzięczność. Prawdziwy prezent mówi: jesteś dla mnie ważny, tak jak jesteś ważny dla Boga.",
+          "seconds": 70
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Komu możesz dziś coś dać, nie oczekując niczego w zamian? Może to być drobiazg, twój czas albo cierpliwość. Spróbuj zrobić to tak, żeby nikt się nie dowiedział, że to ty.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Ojcze, wszystko, co mam, jest Twoim darem. Dziękuję Ci za ludzi, którzy obdarowali mnie miłością. Naucz mnie dawać hojnie i po cichu, tak jak święty Mikołaj. Niech moje dary prowadzą innych do Ciebie, Dawcy wszelkiego dobra. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-06",
+      "category": "adwent",
+      "date": "2026-12-06",
+      "title": "Adwent, dzień 8 — Przygotujcie drogę",
+      "subtitle": "II Niedziela Adwentu · św. Mikołaja",
+      "durationMin": 6,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Druga niedziela Adwentu – zapal dziś drugą świecę na wieńcu. Pojawia się Jan Chrzciciel, ostatni z proroków. A dzieci cieszą się dziś prezentami od świętego Mikołaja.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Usiądź spokojnie. Kilka razy odetchnij głęboko. Wyobraź sobie pustynię: ciszę, przestrzeń, jeden głos, który woła.",
+          "seconds": 120
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Mk 1,1-8 (parafraza)",
+          "text": "Tak zaczyna się dobra nowina o Jezusie Chrystusie, Synu Bożym. U proroka Izajasza napisano: „Oto wysyłam przed Tobą mojego posłańca, aby przygotował Ci drogę. Słychać głos wołający na pustkowiu: utorujcie drogę Panu, wyrównajcie przed Nim ścieżki”. I wystąpił na pustyni Jan. Chrzcił i wzywał ludzi do nawrócenia, aby otrzymali przebaczenie grzechów. Przychodzili do niego tłumnie i wyznawali grzechy. Jan ubierał się w szatę z wielbłądziej sierści, a jadł szarańczę i dziki miód. Mówił: „Idzie za mną mocniejszy ode mnie. Nie jestem godny nawet schylić się do Jego stóp i rozwiązać Mu sandałów. Ja chrzciłem was wodą, a On będzie was chrzcił Duchem Świętym”.",
+          "seconds": 65
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Jan Chrzciciel nie mówi o sobie. Całe jego życie jest jak palec wskazujący: to nie ja, to On. Podobnie święty Mikołaj – dobry biskup, który pomagał ubogim nie po to, by go podziwiano, ale by objawić dobroć Boga. Przygotować drogę Panu to znaczy usunąć to, co Mu przeszkadza przyjść: urazy, kłamstwa, złe przyzwyczajenia. Adwent to dobry czas na spowiedź – żeby wyprostować to, co kręte.",
+          "seconds": 75
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Jaka „krzywa ścieżka” w twoim życiu potrzebuje dziś wyprostowania? Może to być niezałatwiona sprawa, przeprosiny albo powrót do sakramentu pojednania. Zaplanuj konkretny dzień spowiedzi przed świętami.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Panie Jezu, przychodzisz do mnie, a ja chcę przygotować Ci drogę. Pokaż mi, co w moim sercu jest kręte i zagracone. Daj mi pokorę Jana Chrzciciela, żeby moje życie wskazywało na Ciebie, a nie na mnie. Przez wstawiennictwo świętego Mikołaja błogosław dzieciom i wszystkim, którzy dziś dają i otrzymują dary. Amen.",
+          "seconds": 35
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-07",
+      "category": "adwent",
+      "date": "2026-12-07",
+      "title": "Adwent, dzień 9 — Wstań i chodź",
+      "subtitle": "Przyjaciele, którzy niosą",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Dzisiejsza Ewangelia opowiada o człowieku, który sam nie mógł dojść do Jezusa. Przynieśli go przyjaciele – i nie zatrzymali się przed żadną przeszkodą.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Oddychaj spokojnie. Przypomnij sobie twarze ludzi, którzy kiedyś cię „nieśli” – modlitwą, pomocą, obecnością.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Łk 5,18-25 (parafraza)",
+          "text": "Kilku mężczyzn przyniosło na noszach sparaliżowanego człowieka. Chcieli go położyć przed Jezusem, ale z powodu tłumu nie mogli się przecisnąć. Weszli więc na dach, rozebrali część pokrycia i spuścili chorego razem z noszami na sam środek, przed Jezusa. Widząc ich wiarę, Jezus powiedział: „Człowieku, odpuszczone są ci grzechy”. A potem dodał: „Wstań, weź swoje nosze i idź do domu”. Chory natychmiast wstał i poszedł, wielbiąc Boga.",
+          "seconds": 45
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Jezus widzi wiarę przyjaciół. To ona otwiera drogę uzdrowieniu. Czasem jesteśmy jak ten sparaliżowany – zmęczeni, zniechęceni, niezdolni do modlitwy. Wtedy niosą nas inni. A czasem to my mamy kogoś nieść: przez wstawiennictwo, odwiedziny, praktyczną pomoc. Zwróć też uwagę, że Jezus najpierw przebacza, a dopiero potem uzdrawia ciało. Najgłębszy paraliż to ten, który nosimy w sercu.",
+          "seconds": 75
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Kogo możesz dziś „przynieść” do Jezusa? Wypowiedz jego imię w modlitwie. A może to ty potrzebujesz, żeby ktoś cię poniósł – nie bój się poprosić o pomoc.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Jezu, przynoszę Ci dziś [wymień w sercu imiona]. Ty widzisz ich trud i ich potrzeby. Dotknij ich swoją łaską. Dziękuję Ci za ludzi, którzy nieśli mnie w chwilach słabości. Naucz mnie wiernie towarzyszyć innym. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-08",
+      "category": "adwent",
+      "date": "2026-12-08",
+      "title": "Adwent, dzień 10 — Pełna łaski",
+      "subtitle": "Uroczystość Niepokalanego Poczęcia NMP",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny / modlitwa tradycyjna",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Dziś uroczystość Niepokalanego Poczęcia Najświętszej Maryi Panny. Kościół wierzy, że Maryja od pierwszej chwili swojego istnienia, dzięki zasługom Chrystusa, została zachowana od grzechu pierworodnego. Bóg przygotował dla swojego Syna czysty dom.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Weź kilka spokojnych oddechów. Pomyśl o Maryi jak o matce, która cię zna i rozumie.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Łk 1,26-30 (parafraza)",
+          "text": "Bóg posłał anioła Gabriela do Nazaretu, małego miasteczka w Galilei, do młodej dziewicy zaręczonej z Józefem z rodu Dawida. Miała na imię Maryja. Anioł przyszedł do Niej i powiedział: „Raduj się, pełna łaski, Pan z Tobą”. Te słowa głęboko Ją poruszyły i zaczęła się zastanawiać, co oznacza takie pozdrowienie. Anioł mówił dalej: „Nie lękaj się, Maryjo. Bóg obdarzył Cię swoją łaską”.",
+          "seconds": 40
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "„Pełna łaski” – to imię, którym Bóg nazywa Maryję. Nie ma w Niej miejsca, które byłoby zamknięte przed Bogiem. Jej Niepokalane Poczęcie nie oddala Jej od nas. Pokazuje raczej, do czego Bóg chce doprowadzić każdego z nas: do serca całkowicie otwartego na Jego miłość. W nas łaska działa przez chrzest, sakramenty i codzienne nawracanie się. Maryja jest znakiem, że to możliwe.",
+          "seconds": 70
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Który obszar twojego życia jest dziś najbardziej zamknięty przed Bogiem? Oddaj go Maryi i poproś, by pomogła ci go otworzyć. Dziś dobry dzień, żeby odmówić dziesiątek różańca.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa do Maryi",
+          "text": "Maryjo, Niepokalanie Poczęta, pełna łaski, cieszę się razem z Tobą tym, co Bóg w Tobie uczynił. Weź mnie za rękę i prowadź do Twojego Syna. Pomóż mi każdego dnia mówić Bogu „tak”.\n\nZdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi teraz i w godzinę śmierci naszej. Amen.",
+          "seconds": 40
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-09",
+      "category": "adwent",
+      "date": "2026-12-09",
+      "title": "Adwent, dzień 11 — Przyjdźcie do Mnie",
+      "subtitle": "Dla zmęczonych przedświątecznym biegiem",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "W grudniu wielu z nas czuje zmęczenie: koniec roku w pracy, listy zadań, zakupy, spotkania. Dzisiejsze słowa Jezusa są właśnie dla zmęczonych.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Opuść ramiona. Rozluźnij dłonie. Zrób trzy wolne wydechy, dłuższe niż wdechy. Nie musisz teraz niczego załatwiać.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Mt 11,28-30 (parafraza)",
+          "text": "Przyjdźcie do Mnie wszyscy, którzy jesteście zmęczeni i obciążeni, a Ja dam wam wytchnienie. Przyjmijcie moje jarzmo i uczcie się przy Mnie, bo jestem łagodny i pokornego serca, a odnajdziecie spokój dla swoich dusz. Moje jarzmo nie uwiera, a ciężar, który daję, jest lekki.",
+          "seconds": 30
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Jezus nie obiecuje życia bez ciężarów. Obiecuje, że nie będziemy ich nieść sami. Jarzmo to belka, którą zakładano parze wołów – ciężar dźwigany wspólnie. Adwent nie musi być wyścigiem do idealnych świąt. Pierniki mogą być krzywe, a dom nie całkiem wysprzątany. Ważniejsze jest serce, które ma choć trochę miejsca na odpoczynek z Bogiem.",
+          "seconds": 70
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Co z twojej przedświątecznej listy jest naprawdę konieczne, a co możesz odpuścić? Skreśl dziś jedną rzecz i podaruj sobie ten czas – na ciszę, sen albo rozmowę z bliskimi.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Jezu cichy i pokornego serca, przychodzę do Ciebie z moim zmęczeniem. Biorę Twoje jarzmo i oddaję Ci to, co mnie przygniata. Daj mi odpoczynek, którego świat nie umie dać. Naucz mnie żyć w Twoim rytmie. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-10",
+      "category": "adwent",
+      "date": "2026-12-10",
+      "title": "Adwent, dzień 12 — Nie bój się",
+      "subtitle": "Bóg trzyma cię za rękę",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Prorok Izajasz pisał do ludzi, którzy czuli się mali i bezsilni wobec potężnych sąsiadów. Dziś te same słowa Bóg kieruje do ciebie.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Połóż dłonie na kolanach, wnętrzem do góry. Oddychaj spokojnie. Wyobraź sobie, że ktoś bierze cię za rękę.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Iz 41,10.13 (parafraza)",
+          "text": "Nie bój się – jestem przy tobie. Nie rozglądaj się trwożnie, bo Ja jestem twoim Bogiem. Umacniam cię i pomagam ci, podtrzymuję cię moją zwycięską prawicą. Ja, Pan, twój Bóg, trzymam cię za rękę i mówię ci: Nie bój się, Ja ci pomagam.",
+          "seconds": 25
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Trudno o czulszy obraz: Bóg jak rodzic, który bierze dziecko za rękę, gdy przechodzą przez ruchliwą ulicę. Lęk nie znika od razu, ale przestaje rządzić. Adwent przypomina, że Bóg nie przygląda się nam z daleka. W Jezusie podał nam rękę naprawdę – stał się człowiekiem, żeby iść obok nas.",
+          "seconds": 65
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Czego się dziś boisz? Nazwij to po imieniu. Potem kilka razy powtórz powoli w sercu: „Ty trzymasz mnie za rękę”. Wracaj do tych słów, gdy lęk powróci.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Panie, mój Boże, Ty mówisz do mnie: nie bój się. Znasz moje lęki, także te, których nikomu nie mówię. Trzymaj mnie mocno za rękę i prowadź przez ten dzień. Ufam, że jesteś ze mną. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-11",
+      "category": "adwent",
+      "date": "2026-12-11",
+      "title": "Adwent, dzień 13 — Pokój jak rzeka",
+      "subtitle": "Bóg uczy tego, co dobre",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Dziś Izajasz pokazuje Boga jako cierpliwego nauczyciela, który prowadzi nas drogą dobra – nie po to, by nas ograniczać, ale by dać nam pokój.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Wsłuchaj się w swój oddech jak w szum spokojnej rzeki. Wdech. Wydech. Bez pośpiechu.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Iz 48,17-18 (parafraza)",
+          "text": "Tak mówi Pan, twój Odkupiciel: Ja jestem Pan, twój Bóg. Uczę cię tego, co dla ciebie dobre, prowadzę cię drogą, którą masz iść. Gdyby moje przykazania były ci bliskie, twój pokój płynąłby jak rzeka, a twoja sprawiedliwość byłaby jak fale morza.",
+          "seconds": 25
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Boże przykazania nie są listą zakazów wymyśloną przez kogoś, kto nas nie lubi. Są jak wskazówki Ojca, który wie, co nas buduje, a co niszczy. Pokój, o którym mówi prorok, nie jest chwilową ciszą, ale rzeką – czymś, co płynie stale, nawet gdy na powierzchni jest wiatr. Rodzi się z zaufania, że Bóg wie lepiej.",
+          "seconds": 65
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "W której sprawie najtrudniej ci dziś słuchać Boga? Zapytaj Go szczerze, czego chce cię przez to nauczyć. Spróbuj dziś zrobić jeden krok w stronę Jego woli.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Panie, mój Nauczycielu, prowadź mnie drogą, którą mam iść. Kiedy wybieram własne ścieżki, zawróć mnie łagodnie. Daj mi pokój, który płynie jak rzeka – głęboki i trwały. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-12",
+      "category": "adwent",
+      "date": "2026-12-12",
+      "title": "Adwent, dzień 14 — Matka, która jest blisko",
+      "subtitle": "Matka Boża z Guadalupe",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny / modlitwa tradycyjna",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Dziś wspomnienie Matki Bożej z Guadalupe. Na słynnym wizerunku z Meksyku Maryja jest przedstawiona jako brzemienna – oczekuje narodzin Jezusa, tak jak my w Adwencie.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Oddychaj spokojnie. Pomyśl o kobietach, które teraz oczekują dziecka, i o rodzinach, które czekają na nowe życie.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Ap 12,1-2.5 (parafraza)",
+          "text": "Na niebie pojawił się wielki znak: Kobieta, której szatą było słońce; księżyc miała pod stopami, a Jej głowę zdobiła korona z dwunastu gwiazd. Spodziewała się dziecka. I urodziła Syna, który będzie pasterzem wszystkich narodów.",
+          "seconds": 25
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "W 1531 roku Maryja ukazała się prostemu Indianinowi, Juanowi Diego. Zwróciła się do niego jak matka i zapewniła go, że jest przy nim i że nie musi się lękać. Maryja Adwentu to matka w oczekiwaniu. Rozumie niepokój, zmęczenie i nadzieję wszystkich, którzy na coś czekają: na dziecko, na wyzdrowienie, na pracę, na pojednanie.",
+          "seconds": 65
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Na co ty dziś czekasz z niepokojem? Powierz to Maryi. Pomódl się też za jedną znajomą rodzinę, która oczekuje dziecka albo przeżywa trudny czas.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa do Maryi",
+          "text": "Maryjo, Matko Boża z Guadalupe, Ty nosiłaś pod sercem Jezusa i znasz smak oczekiwania. Otocz opieką matki w stanie błogosławionym, rodziny czekające na dziecko i wszystkich, którzy tracą nadzieję. Bądź blisko także mnie. Amen.\n\nZdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi teraz i w godzinę śmierci naszej. Amen.",
+          "seconds": 45
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-13",
+      "category": "adwent",
+      "date": "2026-12-13",
+      "title": "Adwent, dzień 15 — Radujcie się",
+      "subtitle": "III Niedziela Adwentu (Gaudete) · św. Łucji",
+      "durationMin": 6,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Trzecia niedziela Adwentu nazywa się Gaudete – „Radujcie się”. Na wieńcu zapalamy trzecią świecę, często różową. Dziś przypada też dzień świętej Łucji, której imię pochodzi od łacińskiego słowa lux – „światło”.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Usiądź wygodnie. Uśmiechnij się lekko. Weź kilka spokojnych oddechów i pozwól, by w sercu pojawiła się odrobina radości.",
+          "seconds": 120
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "J 1,6-8.19-23 (parafraza)",
+          "text": "Bóg posłał człowieka imieniem Jan. Przyszedł jako świadek światła, aby dzięki jego świadectwu wszyscy mogli uwierzyć. Sam nie był światłem – jego zadaniem było wskazać na światło. Kiedy kapłani i lewici z Jerozolimy zapytali go: „Kim jesteś?”, wyznał otwarcie: „Ja nie jestem Mesjaszem”. Zapytali więc: „Co mówisz sam o sobie?” Odpowiedział: „Jestem głosem wołającego na pustyni: wyrównajcie drogę Pana, jak powiedział prorok Izajasz”.",
+          "seconds": 45
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Jan wie, kim nie jest – i właśnie dlatego jest wolny i radosny. Nie musi niczego udawać ani być w centrum. Jest tylko głosem, a radość głosu polega na tym, że niesie słowo dalej. Radość Adwentu nie zależy od tego, czy wszystko się udaje. Płynie z tego, że Pan jest blisko. Święta Łucja, wierna Chrystusowi aż po męczeństwo, przypomina, że to światło jest silniejsze niż każda ciemność.",
+          "seconds": 75
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Za co możesz dziś podziękować Bogu z radością? Wymień trzy rzeczy. A potem podaruj komuś odrobinę radości: uśmiech, życzliwe słowo, telefon do kogoś, kto dawno cię nie słyszał.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Panie, Ty jesteś blisko, dlatego chcę się radować. Zabierz ze mnie smutek, który zamyka serce, i daj mi radość, której nikt nie może odebrać. Niech moje życie, jak życie Jana i świętej Łucji, świadczy o Twoim świetle. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-14",
+      "category": "adwent",
+      "date": "2026-12-14",
+      "title": "Adwent, dzień 16 — Gwiazda z Jakuba",
+      "subtitle": "Św. Jan od Krzyża – wiara w nocy",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Dziś wspominamy świętego Jana od Krzyża, mistyka, który pisał o „ciemnej nocy” – czasie, gdy Bóg wydaje się daleko, a wiara oczyszcza się i dojrzewa. Pierwsze czytanie mówi o gwieździe widzianej z daleka.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Jeśli jest już ciemno, spójrz przez chwilę przez okno w niebo. Oddychaj spokojnie i pozwól, by cisza nocy weszła w ciebie.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Lb 24,17 (parafraza)",
+          "text": "Widzę Go, choć jeszcze nie nadszedł; patrzę na Niego z oddali. Z rodu Jakuba wzejdzie gwiazda, z Izraela powstanie władca z berłem w ręku.",
+          "seconds": 25
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Te słowa wypowiedział Balaam, obcy prorok, który patrzył na przyszłość z daleka. Zobaczył gwiazdę, choć sam nie doczekał jej wschodu. Tak bywa z wiarą: czasem widzimy tylko odległy punkt światła. Jan od Krzyża uczy, że nawet w nocy, gdy nic nie czujemy, Bóg działa. Ciemność nie oznacza, że Go nie ma.",
+          "seconds": 65
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Czy przeżywasz teraz jakąś „noc” – brak sensu, suchość w modlitwie, niepewność? Nie uciekaj od niej. Powiedz Bogu po prostu: „Nie widzę Cię, ale ufam”.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Boże, Ty jesteś gwiazdą, która wschodzi nawet w najciemniejszą noc. Kiedy nie czuję Twojej obecności, wzmocnij moją wiarę. Przez wstawiennictwo świętego Jana od Krzyża naucz mnie trwać przy Tobie w ciemności, aż zobaczę Twoje światło. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-15",
+      "category": "adwent",
+      "date": "2026-12-15",
+      "title": "Adwent, dzień 17 — Powiedział „nie”, ale poszedł",
+      "subtitle": "Nigdy nie jest za późno",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Dzisiejsza przypowieść jest krótka i bardzo życiowa. Opowiada o dwóch synach i o tym, że liczą się nie tylko słowa, ale czyny.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Weź kilka spokojnych oddechów. Pozwól sobie spojrzeć na siebie uczciwie, ale z łagodnością.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Mt 21,28-31 (parafraza)",
+          "text": "Pewien człowiek miał dwóch synów. Podszedł do pierwszego i powiedział: „Synu, idź dziś pracować w winnicy”. Ten odpowiedział: „Nie chcę”. Później jednak zmienił zdanie i poszedł. Ojciec podszedł do drugiego i powiedział to samo. Ten odpowiedział: „Idę, panie”, ale nie poszedł. Jezus zapytał słuchaczy: „Który z nich spełnił wolę ojca?” Odpowiedzieli: „Pierwszy”.",
+          "seconds": 35
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Każdy z nas bywa raz jednym, raz drugim synem. Czasem obiecujemy Bogu wiele, a potem brakuje nam wytrwałości. Czasem mówimy „nie”, a później coś w nas mięknie. Dobra nowina jest taka, że pierwsza odpowiedź nie jest ostateczna. Zawsze można zmienić zdanie i pójść do winnicy. Na tym polega nawrócenie.",
+          "seconds": 65
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Czy jest coś, na co mówisz Bogu „nie”, choć w głębi serca czujesz, że warto zmienić zdanie? Jeśli spowiedź przed świętami jest jeszcze przed tobą, zaplanuj ją na ten tydzień.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Ojcze, tyle razy obiecuję Ci „tak”, a potem brakuje mi wierności. Tyle razy odpowiadam Ci „nie”. Dziękuję, że zawsze dajesz mi kolejną szansę. Daj mi łaskę nawrócenia i wierności w małych sprawach. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-16",
+      "category": "adwent",
+      "date": "2026-12-16",
+      "title": "Adwent, dzień 18 — Czy to Ty?",
+      "subtitle": "Pytanie Jana – i nasze wątpliwości",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Od dziś w wielu parafiach trwa nowenna przed Bożym Narodzeniem – dziewięć dni szczególnego oczekiwania. A Ewangelia pokazuje Jana Chrzciciela w chwili wątpliwości.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Oddychaj spokojnie. Nie musisz mieć teraz wszystkich odpowiedzi. Po prostu bądź.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Łk 7,19-22 (parafraza)",
+          "text": "Jan przywołał dwóch swoich uczniów i posłał ich do Jezusa z pytaniem: „Czy to Ty jesteś Tym, który miał przyjść, czy mamy wyglądać kogoś innego?” Jezus właśnie uzdrawiał wielu z chorób i cierpień, a wielu niewidomym przywracał wzrok. Odpowiedział im: „Idźcie i powiedzcie Janowi, co widzieliście i słyszeliście: niewidomi odzyskują wzrok, sparaliżowani chodzą, trędowaci zostają oczyszczeni, głusi słyszą, umarli wracają do życia, a ubodzy słyszą dobrą nowinę”.",
+          "seconds": 45
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Jan, który z taką mocą zapowiadał Mesjasza, siedzi teraz w więzieniu i pyta: czy to naprawdę Ty? Wątpliwość nie jest zdradą wiary. Jan nie ukrywa jej, tylko zanosi ją do Jezusa. A Jezus nie odpowiada teorią, ale pokazuje znaki: zobacz, co się dzieje. Także w twoim życiu są ślady Jego działania, jeśli spojrzysz uważnie.",
+          "seconds": 65
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Jakie pytanie lub wątpliwość nosisz dziś w sercu? Zanieś je do Jezusa wprost, tak jak Jan. Potem przypomnij sobie jedną sytuację, w której Jego pomoc była dla ciebie namacalna.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Jezu, wierzę, że jesteś Tym, który miał przyjść. Ale czasem i ja pytam: czy to naprawdę Ty? Przyjmij moje wątpliwości i pokaż mi znaki Twojej obecności. Wzmocnij moją wiarę w tych dniach oczekiwania. Amen.",
+          "seconds": 25
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-17",
+      "category": "adwent",
+      "date": "2026-12-17",
+      "title": "Adwent, dzień 19 — O Mądrości",
+      "subtitle": "Wielkie antyfony „O” · 17 grudnia",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / antyfony „O” w przekładzie własnym (parafraza) / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Od 17 do 23 grudnia Kościół śpiewa w nieszporach wielkie antyfony „O”. Każda woła do Mesjasza innym biblijnym imieniem. Dziś pierwsza z nich: O Mądrości. Ewangelia otwiera się rodowodem Jezusa – długą listą imion Jego przodków.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Usiądź spokojnie. Zrób kilka powolnych oddechów. Poproś Ducha Świętego o dar mądrości.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Syr 24,3; Mdr 8,1 (parafraza)",
+          "text": "Wyszłam z ust Najwyższego i jak obłok mgły rozpostarłam się nad ziemią. Mądrość swą mocą obejmuje świat od krańca do krańca i łagodnie wszystko porządkuje.",
+          "seconds": 25
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Mądrość Boża to nie zimna wiedza, ale miłość, która porządkuje świat „mocno i łagodnie”. W Jezusie ta Mądrość przyszła do nas osobiście. Rodowód z Ewangelii jest pełen imion – są wśród nich bohaterowie i grzesznicy, wierni i słabi. Bóg wszedł w prawdziwą historię ludzkiej rodziny, z jej ranami. Wchodzi także w historię twojej rodziny.",
+          "seconds": 70
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Pomyśl o swoich przodkach i najbliższych – o ich dobru i ich zranieniach. Podziękuj Bogu za dobro, które przez nich do ciebie przyszło, i powierz Mu to, co wymaga uzdrowienia.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Antyfona i modlitwa",
+          "text": "O Mądrości, Słowo wypowiedziane przez Najwyższego, Ty ogarniasz świat od krańca do krańca i prowadzisz wszystko z mocą i łagodnością – przyjdź i pokaż nam drogę roztropności.\n\nPanie Jezu, Mądrości Ojca, wejdź w historię mojej rodziny i w moje decyzje. Ucz mnie patrzeć na świat Twoimi oczami. Amen.",
+          "seconds": 30
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-18",
+      "category": "adwent",
+      "date": "2026-12-18",
+      "title": "Adwent, dzień 20 — O Adonai",
+      "subtitle": "Wielkie antyfony „O” · święty Józef",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / antyfony „O” w przekładzie własnym (parafraza) / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Druga antyfona woła: O Adonai – Panie, który objawiłeś się Mojżeszowi. A Ewangelia pokazuje świętego Józefa, człowieka sprawiedliwego, który w ciszy przyjmuje Boży plan.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Oddychaj spokojnie. Pomyśl o Józefie – o jego niepewności, zmęczeniu i wielkiej wierności.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Mt 1,19-21.24 (parafraza)",
+          "text": "Józef, mąż Maryi, był prawym człowiekiem. Nie chciał wystawić Jej na publiczne oskarżenie, dlatego postanowił rozstać się z Nią bez rozgłosu. Gdy o tym myślał, we śnie przyszedł do niego anioł Pański i powiedział: „Józefie, synu Dawida, nie bój się przyjąć Maryi jako żony, bo Dziecko, które nosi, poczęło się z Ducha Świętego. Urodzi Syna, a ty dasz Mu imię Jezus, bo On wybawi swój lud z grzechów”. Po przebudzeniu Józef zrobił to, co polecił mu anioł.",
+          "seconds": 45
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Józef w Ewangelii nie wypowiada ani jednego słowa. Słucha i działa. Jego plan był rozsądny i szlachetny, ale Bóg miał plan większy. Józef nie rozumie wszystkiego, a mimo to bierze odpowiedzialność za Maryję i Dziecko. Ten sam Pan, który z płonącego krzewu przemówił do Mojżesza, przemawia do Józefa we śnie. I przemawia także do nas – często w ciszy.",
+          "seconds": 70
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Czy jest w twoim życiu sytuacja, w której twój plan zderza się z Bożym? Poproś o wiarę Józefa. Pomódl się też za ojców i mężów, szczególnie tych, którzy dźwigają dziś trudną odpowiedzialność.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Antyfona i modlitwa",
+          "text": "O Adonai, Przewodniku domu Izraela, Ty ukazałeś się Mojżeszowi w ogniu płonącego krzewu i na Synaju dałeś mu Prawo – przyjdź i wyzwól nas swoim potężnym ramieniem.\n\nŚwięty Józefie, człowieku ciszy i zaufania, naucz mnie słuchać Boga i odważnie podejmować odpowiedzialność za tych, których Bóg mi powierzył. Amen.",
+          "seconds": 35
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-19",
+      "category": "adwent",
+      "date": "2026-12-19",
+      "title": "Adwent, dzień 21 — O Korzeniu Jessego",
+      "subtitle": "Wielkie antyfony „O” · 19 grudnia",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / antyfony „O” w przekładzie własnym (parafraza) / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Trzecia antyfona woła: O Korzeniu Jessego. Jesse był ojcem króla Dawida. Prorok Izajasz zapowiedział, że z jego rodu, pozornie skończonego, wyrośnie nowe życie.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Weź kilka głębokich oddechów. Wyobraź sobie zimowe drzewo: nagie gałęzie, a w nich ukryte pąki, które czekają na wiosnę.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Iz 11,1-2 (parafraza)",
+          "text": "Z pnia Jessego wyrośnie młoda gałązka, nowy pęd wyjdzie z jego korzeni. Spocznie na nim Duch Pana – duch mądrości i rozumu, duch rady i męstwa, duch wiedzy i bojaźni Pańskiej.",
+          "seconds": 25
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Pień to drzewo ścięte – wydaje się, że wszystko się skończyło. A jednak z korzenia wyrasta nowy pęd. Tak Bóg działa w historii: tam, gdzie ludzie widzą koniec, On zaczyna coś nowego. W dzisiejszej Ewangelii Zachariasz słyszy, że on i Elżbieta, starzy i bezdzietni, doczekają się syna, Jana. Dla Boga nic nie jest przegrane.",
+          "seconds": 65
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Co w twoim życiu wygląda jak „ścięty pień” – relacja, marzenie, wiara, siły? Oddaj to dziś Bogu i poproś o nowy pęd nadziei. Nie musisz widzieć go od razu.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Antyfona i modlitwa",
+          "text": "O Korzeniu Jessego, wzniesiony jak sztandar dla narodów, przed Tobą zamilkną królowie, a ludy będą Cię błagać – przyjdź nas wybawić, nie zwlekaj.\n\nPanie, Ty potrafisz wyprowadzić życie z tego, co wydaje się martwe. Odnów moją nadzieję i daj mi Ducha, który spoczął na Twoim Synu. Amen.",
+          "seconds": 30
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-20",
+      "category": "adwent",
+      "date": "2026-12-20",
+      "title": "Adwent, dzień 22 — Oto ja",
+      "subtitle": "IV Niedziela Adwentu · O Kluczu Dawida",
+      "durationMin": 6,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / antyfony „O” w przekładzie własnym (parafraza) / tekst własny / modlitwa tradycyjna",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Czwarta niedziela Adwentu – zapal ostatnią świecę na wieńcu. Antyfona dnia woła: O Kluczu Dawida. A Ewangelia prowadzi nas do Nazaretu, do domu Maryi, w chwili zwiastowania.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Usiądź spokojnie. Wycisz się. Wyobraź sobie skromny dom w Nazarecie i młodą dziewczynę, która modli się w ciszy.",
+          "seconds": 120
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Łk 1,30-38 (parafraza)",
+          "text": "Anioł powiedział do Maryi: „Nie lękaj się, Maryjo, Bóg obdarzył Cię swoją łaską. Poczniesz i urodzisz Syna, któremu nadasz imię Jezus. Będzie wielki, nazwą Go Synem Najwyższego, a Jego królowanie nie będzie miało końca”. Maryja zapytała: „Jak to się stanie, skoro jestem dziewicą?” Anioł odpowiedział: „Zstąpi na Ciebie Duch Święty, a moc Najwyższego okryje Cię swoim cieniem. Dlatego Dziecko, które się narodzi, będzie święte i nazwane Synem Bożym. Bo dla Boga nic nie jest niemożliwe”. Wtedy Maryja powiedziała: „Oto ja, służebnica Pana. Niech mi się stanie według twego słowa”. I anioł odszedł od Niej.",
+          "seconds": 60
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Maryja zadaje pytanie – nie z niedowierzania, ale z pragnienia, by zrozumieć. A potem mówi swoje „tak”, choć nie zna przyszłości. Jej „tak” otwiera drzwi, przez które Bóg wchodzi w świat. Antyfona nazywa Chrystusa Kluczem Dawida: On otwiera to, czego nikt nie otworzy. Ale do drzwi naszego serca Bóg nie wchodzi bez naszej zgody. Czeka, jak czekał na odpowiedź Maryi.",
+          "seconds": 70
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Do jakich „zamkniętych drzwi” w sobie Bóg puka w tym Adwencie? Za kilka dni święta. Powiedz Mu dziś swoje „tak” – choćby nieśmiałe – w jednej konkretnej sprawie.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Antyfona i modlitwa",
+          "text": "O Kluczu Dawida, berło domu Izraela: gdy Ty otwierasz, nikt nie zdoła zamknąć, a gdy zamykasz, nikt nie otworzy – przyjdź i uwolnij z ciemnego więzienia tych, których skuł lęk i cień śmierci.\n\nMaryjo, naucz mnie Twojego „tak”.\n\nZdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi teraz i w godzinę śmierci naszej. Amen.",
+          "seconds": 45
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-21",
+      "category": "adwent",
+      "date": "2026-12-21",
+      "title": "Adwent, dzień 23 — O Wschodzie",
+      "subtitle": "Wielkie antyfony „O” · najdłuższa noc",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / antyfony „O” w przekładzie własnym (parafraza) / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Dziś najkrótszy dzień i najdłuższa noc w roku. Od jutra światła zacznie przybywać. Właśnie dziś Kościół woła: O Wschodzie, Słońce sprawiedliwości! A Ewangelia opowiada o Maryi, która spieszy do Elżbiety.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Zgaś na chwilę światło albo spójrz w ciemność za oknem. Oddychaj spokojnie. Pomyśl o świcie, który na pewno nadejdzie.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Łk 1,39-45 (parafraza)",
+          "text": "Maryja wyruszyła w drogę i pospiesznie przeszła przez góry do miasta w Judzie. Gdy weszła do domu Zachariasza i przywitała Elżbietę, dziecko w łonie Elżbiety poruszyło się z radości, a ona sama napełniła się Duchem Świętym. Zawołała głośno: „Błogosławiona jesteś między niewiastami i błogosławiony owoc Twojego łona! Skąd mi ta łaska, że Matka mojego Pana przychodzi do mnie? Szczęśliwa jesteś, że uwierzyłaś w spełnienie się słów Pana”.",
+          "seconds": 50
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Maryja niesie pod sercem Światło świata – i nie zatrzymuje Go dla siebie. Idzie do krewnej, by pomóc. Gdzie przychodzi z Jezusem, tam budzi się radość: nawet nienarodzony Jan raduje się w łonie matki. Najdłuższa noc roku przypomina, że Chrystus jest Wschodem – słońcem, które nie zachodzi. Każda ciemność ma swój świt.",
+          "seconds": 65
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Do kogo możesz w tych dniach „pospieszyć” jak Maryja – z pomocą przy przygotowaniach, z odwiedzinami u starszej osoby, z dobrą wiadomością? Zrób to jeszcze przed świętami.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Antyfona i modlitwa",
+          "text": "O Wschodzie, Ty jesteś blaskiem odwiecznego światła i Słońcem sprawiedliwości – przyjdź i rozjaśnij noc tych, którzy żyją w mroku i w cieniu śmierci.\n\nMaryjo, Ty niosłaś Jezusa do innych. Pomóż mi nieść Jego światło tam, gdzie jest najciemniej. Amen.",
+          "seconds": 30
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-22",
+      "category": "adwent",
+      "date": "2026-12-22",
+      "title": "Adwent, dzień 24 — O Królu narodów",
+      "subtitle": "Wielkie antyfony „O” · Magnificat",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / antyfony „O” w przekładzie własnym (parafraza) / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Szósta antyfona woła: O Królu narodów. Ewangelia przynosi pieśń Maryi – Magnificat, w której raduje się Bogiem, który wywyższa pokornych.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Weź kilka spokojnych oddechów. Mimo przedświątecznego biegu znajdź w sobie miejsce na wdzięczność.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Łk 1,46-53 (parafraza)",
+          "text": "Maryja powiedziała: „Moja dusza wielbi Pana, a mój duch raduje się w Bogu, moim Zbawicielu. Bo spojrzał na swoją pokorną służebnicę, i odtąd wszystkie pokolenia będą mnie nazywać szczęśliwą. Wszechmocny dokonał we mnie wielkich rzeczy, a Jego imię jest święte. Jego miłosierdzie trwa z pokolenia na pokolenie dla tych, którzy się Go boją. Zrzuca możnych z tronów, a wywyższa małych; głodnych syci dobrem, a bogaczy odsyła z pustymi rękami”.",
+          "seconds": 45
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Król, na którego czekamy, nie rodzi się w pałacu, ale w stajni. Maryja to rozumie: Bóg odwraca porządek świata. Podnosi małych, karmi głodnych. W tych dniach pieczemy pierniki, lepimy pierogi, szykujemy prezenty. Warto pamiętać o pięknym polskim zwyczaju: dodatkowym nakryciu przy wigilijnym stole – dla niespodziewanego gościa, dla wędrowca, dla kogoś, kto jest sam.",
+          "seconds": 70
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Kto w twoim otoczeniu spędzi święta w samotności? Może sąsiad, ktoś starszy z rodziny, kolega z pracy daleko od domu. Zastanów się, jak możesz go zaprosić albo przynajmniej odwiedzić czy zadzwonić.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Antyfona i modlitwa",
+          "text": "O Królu, za którym tęsknią narody, kamieniu węgielny, który łączysz podzielonych – przyjdź i ocal człowieka, którego ukształtowałeś z prochu ziemi.\n\nPanie, z Maryją wielbię Cię za wielkie rzeczy, które uczyniłeś w moim życiu. Daj mi serce pokorne i otwarte dla tych, którzy są sami. Amen.",
+          "seconds": 30
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-23",
+      "category": "adwent",
+      "date": "2026-12-23",
+      "title": "Adwent, dzień 25 — O Emmanuelu",
+      "subtitle": "Ostatnia antyfona „O” · Bóg z nami",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / antyfony „O” w przekładzie własnym (parafraza) / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Ostatnia z wielkich antyfon: O Emmanuelu! Pierwsze litery łacińskich imion z tych siedmiu antyfon, czytane od końca, układają się w słowa „ero cras” – „będę jutro”. Jutro Wigilia.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Zatrzymaj się wśród przedświątecznej krzątaniny. Weź trzy głębokie oddechy. Powiedz w sercu: „Bóg jest z nami”.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Iz 7,14 (parafraza)",
+          "text": "Sam Pan da wam znak: Dziewica pocznie i urodzi Syna, i da Mu imię Emmanuel, co znaczy: Bóg z nami.",
+          "seconds": 25
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Emmanuel – Bóg z nami. To streszczenie całego Adwentu i całej Ewangelii. Nie Bóg ponad nami, nie Bóg daleko od nas, ale z nami: w kuchni pełnej garnków, w korkach przed centrum handlowym, przy łóżku chorego, w rodzinie, która nie zawsze potrafi się dogadać. W dzisiejszej Ewangelii rodzi się Jan, a jego ojciec, Zachariasz, odzyskuje mowę i wielbi Boga. Kiedy Bóg przychodzi, nawet milczący zaczynają śpiewać.",
+          "seconds": 75
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Gdzie dziś najbardziej potrzebujesz Boga przy sobie? Zaproś Go do konkretnego miejsca i sytuacji: do kuchni, do pracy, do trudnej rozmowy. Jeśli coś cię dziś zdenerwuje, powtórz: „Emmanuel – Bóg jest z nami”.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Antyfona i modlitwa",
+          "text": "O Emmanuelu, Boże z nami, nasz Królu i Prawodawco, nadziejo wszystkich ludów i ich Zbawco – przyjdź i ocal nas, Panie, nasz Boże.\n\nJezu, Emmanuelu, Ty jesteś z nami w każdej chwili. Przyjdź do mojego domu i do mojego serca. Moje serce nie jest jeszcze w pełni gotowe, ale bardzo chce Cię przyjąć. Przyjmij to, co mam. Amen.",
+          "seconds": 35
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-12-24",
+      "category": "adwent",
+      "date": "2026-12-24",
+      "title": "Adwent, dzień 26 — Nawiedzi nas Słońce",
+      "subtitle": "Poranek Wigilii",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Wprowadzenie",
+          "text": "Ostatni poranek Adwentu. Dziś wieczorem, gdy na niebie zabłyśnie pierwsza gwiazdka, zasiądziemy do wigilijnego stołu. Zanim zacznie się gotowanie i ostatnie przygotowania, zatrzymaj się na kilka minut.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Wycisz się",
+          "text": "Weź kilka powolnych oddechów. Nawet jeśli masz dziś dużo do zrobienia, ta chwila należy do Boga.",
+          "seconds": 90
+        },
+        {
+          "type": "scripture",
+          "title": "Słowo na dziś",
+          "ref": "Łk 1,68.78-79 (parafraza)",
+          "text": "Niech będzie błogosławiony Pan, Bóg Izraela, bo nawiedził swój lud i przyniósł mu wyzwolenie. Dzięki serdecznemu miłosierdziu naszego Boga przyjdzie do nas z wysoka Wschodzące Słońce, by dać światło tym, którzy żyją w ciemności i w cieniu śmierci, i poprowadzić nasze kroki drogą pokoju.",
+          "seconds": 30
+        },
+        {
+          "type": "text",
+          "title": "Rozważanie",
+          "text": "Tymi słowami Zachariasz wielbi Boga po narodzinach Jana. Kościół modli się nimi codziennie rano. Dziś brzmią szczególnie: Słońce już wschodzi. Wigilia to dzień pojednania – dawniej mówiono, że jaka Wigilia, taki cały rok. Nie chodzi o przesąd, ale o mądrość: dobrze jest zacząć święta w zgodzie. Opłatek, którym się dzielimy, przypomina, że Chrystus, Chleb życia, rodzi się po to, by nas łączyć.",
+          "seconds": 75
+        },
+        {
+          "type": "text",
+          "title": "Na dziś",
+          "text": "Z kim potrzebujesz się pojednać przed dzisiejszym wieczorem? Jeśli to możliwe, zadzwoń, napisz albo po prostu w sercu przebacz. Przy pracach w kuchni ofiaruj Bogu każdą czynność jako przygotowanie na Jego przyjście.",
+          "seconds": 40
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa",
+          "text": "Boże, nasz Ojcze, dziękuję Ci za drogę tego Adwentu – za każdy dzień, także za te chwile, w których moje myśli były daleko od Ciebie. Dziś wieczorem przyjdzie Twój Syn. Przygotuj moje serce jak żłóbek: proste, ubogie, ale gotowe Go przyjąć. Niech nad moim domem zabłyśnie Twoje Słońce i poprowadzi nas drogą pokoju. Amen.",
+          "seconds": 35
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    },
+    {
+      "id": "adwent-2026-wigilia",
+      "category": "adwent",
+      "date": null,
+      "title": "Wigilia — modlitwa przy stole wigilijnym",
+      "subtitle": "Dla całej rodziny, przed łamaniem się opłatkiem",
+      "durationMin": 5,
+      "premium": false,
+      "source": "Parafraza Pisma Świętego / modlitwa tradycyjna / tekst własny",
+      "steps": [
+        {
+          "type": "bell",
+          "seconds": 4
+        },
+        {
+          "type": "text",
+          "title": "Zanim usiądziemy",
+          "text": "Ta modlitwa jest dla całej rodziny zgromadzonej przy wigilijnym stole. Niech jedna osoba czyta na głos, a pozostali słuchają. Na stole leży opłatek, obok może stać zapalona świeca. Dodatkowe nakrycie czeka na niespodziewanego gościa.",
+          "seconds": 25
+        },
+        {
+          "type": "silence",
+          "title": "Chwila ciszy",
+          "text": "Stańmy przy stole. Na moment zamilknijmy. Pomyślmy, że jest z nami Ten, na którego czekaliśmy przez cały Adwent.",
+          "seconds": 60
+        },
+        {
+          "type": "scripture",
+          "title": "Ewangelia",
+          "ref": "Łk 2,8-14 (parafraza)",
+          "text": "Niedaleko Betlejem pasterze spędzali noc pod gołym niebem, pilnując swoich owiec. Nagle stanął przy nich anioł Pański i otoczyła ich jasność chwały Pana, a oni bardzo się przestraszyli. Anioł powiedział do nich: „Nie bójcie się! Przynoszę wam dobrą nowinę o wielkiej radości dla całego ludu: dziś w mieście Dawida przyszedł na świat wasz Zbawiciel – Mesjasz i Pan. Poznacie Go po tym, że znajdziecie małe Dziecko zawinięte w pieluszki i położone w żłobie”. Wtedy obok anioła pojawiło się wielkie wojsko niebieskie. Aniołowie wychwalali Boga, śpiewając: „Chwała Bogu na wysokościach, a na ziemi pokój ludziom, których On kocha”.",
+          "seconds": 60
+        },
+        {
+          "type": "text",
+          "title": "Opłatek",
+          "text": "Za chwilę podzielimy się opłatkiem. To biały chleb, taki jak ten, który na ołtarzu staje się Ciałem Chrystusa. Łamiąc go, mówimy sobie: chcę być z tobą w zgodzie, życzę ci dobra, przebaczam i proszę o przebaczenie. Nie trzeba wielkich słów. Wystarczy szczere życzenie, uścisk i spojrzenie w oczy.",
+          "seconds": 30
+        },
+        {
+          "type": "text",
+          "title": "Pamiętamy",
+          "text": "Pamiętamy o tych, których dziś z nami nie ma: o bliskich, którzy odeszli do Pana, o tych, którzy są daleko, o chorych, samotnych, ubogich i o wszystkich, którzy tej nocy nie mają domu. Niech każdy w ciszy wymieni w sercu ich imiona.",
+          "seconds": 45
+        },
+        {
+          "type": "prayer",
+          "title": "Modlitwa przy stole",
+          "text": "Ojcze nasz, któryś jest w niebie, święć się imię Twoje, przyjdź królestwo Twoje, bądź wola Twoja jako w niebie, tak i na ziemi. Chleba naszego powszedniego daj nam dzisiaj i odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom. I nie wódź nas na pokuszenie, ale nas zbaw ode złego. Amen.\n\nPanie Jezu, narodzony w Betlejem, dziękujemy Ci za ten wieczór, za nasz dom i za siebie nawzajem. Pobłogosław ten opłatek, ten stół, wszystkie potrawy i ręce, które przygotowały je z trudem i miłością. Bądź pośród nas, gdy będziemy sobie przebaczać i składać życzenia. Niech pokój tej nocy zostanie w naszej rodzinie na cały rok. Amen.",
+          "seconds": 65
+        },
+        {
+          "type": "bell",
+          "seconds": 4
+        }
+      ]
+    }
+  ]
+}
