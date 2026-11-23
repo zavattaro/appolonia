@@ -1,0 +1,27 @@
+{
+  "provider": "paddle",
+  "environment": "sandbox",
+  "clientToken": "",
+  "prices": {
+    "monthly": "",
+    "yearly": "",
+    "lifetime": ""
+  },
+  "displayPrices": {
+    "monthly": "14,99 zł",
+    "yearly": "89 zł",
+    "lifetime": "179 zł"
+  },
+  "trialDays": 7,
+  "successUrl": "",
+  "publicKeyJwk": {
+    "kty": "EC",
+    "crv": "P-256",
+    "x": "u2rjV-h3NvvIGjF-8_6dayn0d6uD3J4qRunwOU2OWAc",
+    "y": "owGckxO-yt65CSAseXE3Xm1kATV7XbByIiGy6D2Jlxg",
+    "ext": true
+  },
+  "promoFreeUntil": "2026-12-24T23:59:59+01:00",
+  "promoLabelKey": "promo.advent",
+  "_aviso": "publicKeyJwk deste arquivo é de TESTE (keys/ gerada em 23/11/2026). Trocar pela chave de produção antes de vender — ver docs/pagamentos.md. clientToken vazio = paywall em modo simulação. promoFreeUntil = promoção 'Adwent za darmo' (tudo grátis até essa data, calculado, não gravado); depois dela, sem clientToken o paywall mostra 'Wersja premium będzie dostępna wkrótce' (simulação só com ?dev=1)."
+}

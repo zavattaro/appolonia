@@ -1,0 +1,23 @@
+{
+  "appName": "Appolonia",
+  "tagline_key": "app.tagline",
+  "colors": {
+    "primary": "#1F3A5F",
+    "primaryDark": "#142840",
+    "accent": "#C9A45C",
+    "bg": "#FAF7F0",
+    "surface": "#FFFFFF",
+    "text": "#1E2430",
+    "muted": "#5A6372"
+  },
+  "colorsDark": {
+    "primary": "#8FB0D9",
+    "primaryDark": "#0E1A2B",
+    "accent": "#D9B977",
+    "bg": "#10161F",
+    "surface": "#1A2330",
+    "text": "#ECE8DF",
+    "muted": "#A9B1BD"
+  },
+  "fontStack": "Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif"
+}
